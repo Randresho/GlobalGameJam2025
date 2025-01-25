@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BeatBase : MonoBehaviour
 {
@@ -25,11 +26,19 @@ public class BeatBase : MonoBehaviour
     private bool moving = false;
     private bool deathTriggered = false;
 
+    private UnityEvent pressedCallback;
+
     private void Awake()
     {
         state = BubbleStages.IDLE;
         deathTriggered = false;
         moving = false;
+    }
+
+    private void OnDisable()
+    {
+        if (pressedCallback != null)
+            pressedCallback.RemoveListener(OnPressed);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -45,11 +54,30 @@ public class BeatBase : MonoBehaviour
             Move();
     }
 
-    public void Initialize(float speed, int score)
+    public void Initialize(float speed, int score, UnityEvent handler)
     {
         travelSpeed = speed;
         scoreValue = score;
         moving = true;
+        state = BubbleStages.MOVING;
+        pressedCallback = handler;
+        pressedCallback.AddListener(OnPressed);
+    }
+
+    protected virtual void OnPressed()
+    {
+        switch (state)
+        {
+            case BubbleStages.EARLY:
+                GameManager.instance.UpdateScore(Mathf.CeilToInt(scoreValue * .75f));
+                break;
+            case BubbleStages.PERFECT:
+                GameManager.instance.UpdateScore(Mathf.CeilToInt(scoreValue));
+                break;
+            case BubbleStages.LATE:
+                GameManager.instance.UpdateScore(Mathf.CeilToInt(scoreValue * .5f));
+                break;
+        }
     }
 
     protected virtual void Move()
@@ -86,6 +114,8 @@ public class BeatBase : MonoBehaviour
     protected virtual IEnumerator BaseDeathSequence()
     {
         deathTriggered = true;
+        pressedCallback.RemoveListener(OnPressed);
+        pressedCallback = null;
         yield return new WaitForSeconds(deathDelay);
         Destroy(gameObject);
     }
