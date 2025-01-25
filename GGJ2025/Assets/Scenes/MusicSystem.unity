@@ -206,6 +206,127 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &228350971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 228350972}
+  - component: {fileID: 228350973}
+  m_Layer: 0
+  m_Name: up-row
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &228350972
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228350971}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.5, y: 6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 855595855}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &228350973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228350971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3b9386f65c629e419e320a0dfcccf7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bandFrequency: 2
+  beatThreshold: 1
+  changeFactor: 0
+  useRandom: 0
+  useRandomThreshold: 0
+  X: 0
+  Y: 0
+  Z: 0
+  tX: 0
+  tY: 0
+  tZ: 0
+  targetButton: 1
+  beatPrefab: {fileID: 6574983767573017208, guid: 18baf4c89cb3a45ed8c8bdd483d7fe49, type: 3}
+  beatTravelSpeed: 4
+  beatScore: 5
+  earlyPenalty: 0.75
+  latePenalty: 0.5
+  onEarly:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1794489963}
+        m_TargetAssemblyTypeName: TrashBehaviours, Assembly-CSharp
+        m_MethodName: Deb
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Early :c
+          m_BoolArgument: 0
+        m_CallState: 2
+  onPerfect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1794489963}
+        m_TargetAssemblyTypeName: TrashBehaviours, Assembly-CSharp
+        m_MethodName: Deb
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Perfect!
+          m_BoolArgument: 0
+        m_CallState: 2
+  onLate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1794489963}
+        m_TargetAssemblyTypeName: TrashBehaviours, Assembly-CSharp
+        m_MethodName: Deb
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Late :c
+          m_BoolArgument: 0
+        m_CallState: 2
+  onDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1794489963}
+        m_TargetAssemblyTypeName: TrashBehaviours, Assembly-CSharp
+        m_MethodName: Deb
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Death :c
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &349785323
 GameObject:
   m_ObjectHideFlags: 0
@@ -678,6 +799,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1437317064}
+  - {fileID: 228350972}
+  - {fileID: 1263276809}
+  - {fileID: 1642682964}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &930900918
@@ -802,6 +926,127 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1263276808
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1263276809}
+  - component: {fileID: 1263276810}
+  m_Layer: 0
+  m_Name: right-row
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1263276809
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263276808}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.5, y: 6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 855595855}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1263276810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263276808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3b9386f65c629e419e320a0dfcccf7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bandFrequency: 3
+  beatThreshold: 1
+  changeFactor: 0
+  useRandom: 0
+  useRandomThreshold: 0
+  X: 0
+  Y: 0
+  Z: 0
+  tX: 0
+  tY: 0
+  tZ: 0
+  targetButton: 2
+  beatPrefab: {fileID: 6574983767573017208, guid: 18baf4c89cb3a45ed8c8bdd483d7fe49, type: 3}
+  beatTravelSpeed: 4
+  beatScore: 5
+  earlyPenalty: 0.75
+  latePenalty: 0.5
+  onEarly:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1794489963}
+        m_TargetAssemblyTypeName: TrashBehaviours, Assembly-CSharp
+        m_MethodName: Deb
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Early :c
+          m_BoolArgument: 0
+        m_CallState: 2
+  onPerfect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1794489963}
+        m_TargetAssemblyTypeName: TrashBehaviours, Assembly-CSharp
+        m_MethodName: Deb
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Perfect!
+          m_BoolArgument: 0
+        m_CallState: 2
+  onLate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1794489963}
+        m_TargetAssemblyTypeName: TrashBehaviours, Assembly-CSharp
+        m_MethodName: Deb
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Late :c
+          m_BoolArgument: 0
+        m_CallState: 2
+  onDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1794489963}
+        m_TargetAssemblyTypeName: TrashBehaviours, Assembly-CSharp
+        m_MethodName: Deb
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Death :c
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1398904440
 GameObject:
   m_ObjectHideFlags: 0
@@ -947,7 +1192,7 @@ GameObject:
   - component: {fileID: 1437317064}
   - component: {fileID: 1437317065}
   m_Layer: 0
-  m_Name: beat-generator-row
+  m_Name: left-row
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -962,7 +1207,7 @@ Transform:
   m_GameObject: {fileID: 1437317059}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 6, z: 0}
+  m_LocalPosition: {x: -4.5, y: 6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -980,7 +1225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3b9386f65c629e419e320a0dfcccf7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bandFrequency: 2
+  bandFrequency: 1
   beatThreshold: 1
   changeFactor: 0
   useRandom: 0
@@ -1086,11 +1331,7 @@ Transform:
   m_LocalPosition: {x: 0, y: -2.43, z: 0}
   m_LocalScale: {x: 30, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1625390474}
-  - {fileID: 1982000384}
-  - {fileID: 1727488416}
-  - {fileID: 1999328055}
+  m_Children: []
   m_Father: {fileID: 1646617333}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1448620184
@@ -1177,6 +1418,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2586fc1d924ba3740aa079e868c0131d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnSongEnd:
+    m_PersistentCalls:
+      m_Calls: []
   totalSongTimer: 120
   curSongTimer: 0
   isSongOver: 0
@@ -1294,6 +1538,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1625390474}
   - component: {fileID: 1625390475}
+  - component: {fileID: 1625390477}
+  - component: {fileID: 1625390476}
   m_Layer: 0
   m_Name: left
   m_TagString: Untagged
@@ -1310,12 +1556,12 @@ Transform:
   m_GameObject: {fileID: 1625390473}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.15, y: 0, z: 0}
-  m_LocalScale: {x: 0.03333333, y: 10, z: 1}
+  m_LocalPosition: {x: -4.5, y: -3.93, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1028065320}
-  m_Father: {fileID: 1448620183}
+  m_Father: {fileID: 1646617333}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1625390475
 SpriteRenderer:
@@ -1372,6 +1618,182 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1625390476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625390473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ef327ac71fc74bd790fee5f735344cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1625390477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625390473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe3419dd3e544bada2cf67d41f8976d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetButton: 0
+  OnButtonPressed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1625390476}
+        m_TargetAssemblyTypeName: SimpleSizeEffect, Assembly-CSharp
+        m_MethodName: SizeDown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnButtonReleased:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1625390476}
+        m_TargetAssemblyTypeName: SimpleSizeEffect, Assembly-CSharp
+        m_MethodName: SizeUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &1642682963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1642682964}
+  - component: {fileID: 1642682965}
+  m_Layer: 0
+  m_Name: down-row
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1642682964
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642682963}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.5, y: 6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 855595855}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1642682965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642682963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3b9386f65c629e419e320a0dfcccf7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bandFrequency: 4
+  beatThreshold: 1
+  changeFactor: 0
+  useRandom: 0
+  useRandomThreshold: 0
+  X: 0
+  Y: 0
+  Z: 0
+  tX: 0
+  tY: 0
+  tZ: 0
+  targetButton: 3
+  beatPrefab: {fileID: 6574983767573017208, guid: 18baf4c89cb3a45ed8c8bdd483d7fe49, type: 3}
+  beatTravelSpeed: 4
+  beatScore: 5
+  earlyPenalty: 0.75
+  latePenalty: 0.5
+  onEarly:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1794489963}
+        m_TargetAssemblyTypeName: TrashBehaviours, Assembly-CSharp
+        m_MethodName: Deb
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Early :c
+          m_BoolArgument: 0
+        m_CallState: 2
+  onPerfect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1794489963}
+        m_TargetAssemblyTypeName: TrashBehaviours, Assembly-CSharp
+        m_MethodName: Deb
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Perfect!
+          m_BoolArgument: 0
+        m_CallState: 2
+  onLate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1794489963}
+        m_TargetAssemblyTypeName: TrashBehaviours, Assembly-CSharp
+        m_MethodName: Deb
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Late :c
+          m_BoolArgument: 0
+        m_CallState: 2
+  onDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1794489963}
+        m_TargetAssemblyTypeName: TrashBehaviours, Assembly-CSharp
+        m_MethodName: Deb
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Death :c
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1646617332
 GameObject:
   m_ObjectHideFlags: 0
@@ -1401,6 +1823,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1625390474}
+  - {fileID: 1982000384}
+  - {fileID: 1727488416}
+  - {fileID: 1999328055}
   - {fileID: 1448620183}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1548,6 +1974,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1727488416}
   - component: {fileID: 1727488417}
+  - component: {fileID: 1727488419}
+  - component: {fileID: 1727488418}
   m_Layer: 0
   m_Name: right
   m_TagString: Untagged
@@ -1564,12 +1992,12 @@ Transform:
   m_GameObject: {fileID: 1727488415}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.05, y: 0, z: 0}
-  m_LocalScale: {x: 0.03333333, y: 10, z: 1}
+  m_LocalPosition: {x: 1.5, y: -3.93, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 797738073}
-  m_Father: {fileID: 1448620183}
+  m_Father: {fileID: 1646617333}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1727488417
 SpriteRenderer:
@@ -1626,6 +2054,61 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1727488418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727488415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ef327ac71fc74bd790fee5f735344cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1727488419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727488415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe3419dd3e544bada2cf67d41f8976d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetButton: 2
+  OnButtonPressed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1727488418}
+        m_TargetAssemblyTypeName: SimpleSizeEffect, Assembly-CSharp
+        m_MethodName: SizeDown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnButtonReleased:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1727488418}
+        m_TargetAssemblyTypeName: SimpleSizeEffect, Assembly-CSharp
+        m_MethodName: SizeUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1794489960
 GameObject:
   m_ObjectHideFlags: 0
@@ -1881,6 +2364,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1982000384}
   - component: {fileID: 1982000385}
+  - component: {fileID: 1982000387}
+  - component: {fileID: 1982000386}
   m_Layer: 0
   m_Name: up
   m_TagString: Untagged
@@ -1897,12 +2382,12 @@ Transform:
   m_GameObject: {fileID: 1982000383}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.05, y: 0, z: 0}
-  m_LocalScale: {x: 0.03333333, y: 10, z: 1}
+  m_LocalPosition: {x: -1.5, y: -3.93, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1539159646}
-  m_Father: {fileID: 1448620183}
+  m_Father: {fileID: 1646617333}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1982000385
 SpriteRenderer:
@@ -1959,6 +2444,61 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1982000386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982000383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ef327ac71fc74bd790fee5f735344cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1982000387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982000383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe3419dd3e544bada2cf67d41f8976d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetButton: 1
+  OnButtonPressed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1982000386}
+        m_TargetAssemblyTypeName: SimpleSizeEffect, Assembly-CSharp
+        m_MethodName: SizeDown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnButtonReleased:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1982000386}
+        m_TargetAssemblyTypeName: SimpleSizeEffect, Assembly-CSharp
+        m_MethodName: SizeUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1999328054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1969,6 +2509,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1999328055}
   - component: {fileID: 1999328056}
+  - component: {fileID: 1999328058}
+  - component: {fileID: 1999328057}
   m_Layer: 0
   m_Name: down
   m_TagString: Untagged
@@ -1985,12 +2527,12 @@ Transform:
   m_GameObject: {fileID: 1999328054}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.15, y: 0, z: 0}
-  m_LocalScale: {x: 0.03333333, y: 10, z: 1}
+  m_LocalPosition: {x: 4.5, y: -3.93, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 202783777}
-  m_Father: {fileID: 1448620183}
+  m_Father: {fileID: 1646617333}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1999328056
 SpriteRenderer:
@@ -2047,6 +2589,61 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1999328057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999328054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ef327ac71fc74bd790fee5f735344cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1999328058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999328054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe3419dd3e544bada2cf67d41f8976d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetButton: 3
+  OnButtonPressed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1999328057}
+        m_TargetAssemblyTypeName: SimpleSizeEffect, Assembly-CSharp
+        m_MethodName: SizeDown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnButtonReleased:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1999328057}
+        m_TargetAssemblyTypeName: SimpleSizeEffect, Assembly-CSharp
+        m_MethodName: SizeUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2038378590
 GameObject:
   m_ObjectHideFlags: 0

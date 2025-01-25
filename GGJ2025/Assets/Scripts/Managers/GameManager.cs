@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        InputManager.Instance.SetInputType("ui");
+        // InputManager.Instance.SetInputType("ui");
         startGame = false;
     }
 

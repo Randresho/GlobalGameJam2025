@@ -3,7 +3,11 @@ using UnityEngine.Events;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Haptics;
 
-public class InputManager : MonoBehaviour, InputActions.IPlayerActions, InputActions.IUIActions, InputActions.IPauseActions
+public class InputManager
+    : MonoBehaviour,
+        InputActions.IPlayerActions,
+        InputActions.IUIActions,
+        InputActions.IPauseActions
 {
     private InputActions inputActions;
 
@@ -189,6 +193,7 @@ public class InputManager : MonoBehaviour, InputActions.IPlayerActions, InputAct
                 break;
         }
     }
+
     public void OnMainMenu(InputAction.CallbackContext context)
     {
         switch (context.phase)
