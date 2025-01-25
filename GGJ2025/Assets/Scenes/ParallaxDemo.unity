@@ -668,7 +668,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1075350564}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: ChangeGameStatus
-        m_Mode: 1
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -731,6 +731,30 @@ MonoBehaviour:
           m_StringArgument: Press space
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1075350564}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: StartTheGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Press space
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1263240992}
+        m_TargetAssemblyTypeName: EnviromentEventsWithTime, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Press space
+          m_BoolArgument: 0
+        m_CallState: 2
   OnSubmitReleased:
     m_PersistentCalls:
       m_Calls: []
@@ -758,14 +782,14 @@ MonoBehaviour:
       - m_Target: {fileID: 1075350564}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: ChangeGameStatus
-        m_Mode: 1
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 819075679}
         m_TargetAssemblyTypeName: InputManager, Assembly-CSharp
@@ -844,10 +868,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2586fc1d924ba3740aa079e868c0131d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnSongEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1263240992}
+        m_TargetAssemblyTypeName: EnviromentEventsWithTime, Assembly-CSharp
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: ui
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 819075679}
+        m_TargetAssemblyTypeName: InputManager, Assembly-CSharp
+        m_MethodName: SetInputType
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: ui
+          m_BoolArgument: 0
+        m_CallState: 2
   totalSongTimer: 120
   curSongTimer: 0
   isSongOver: 0
   startGame: 0
+  <Score>k__BackingField: 0
 --- !u!4 &1075350565
 Transform:
   m_ObjectHideFlags: 0
@@ -893,7 +945,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eventsTimers:
-  - timer: 2
+  - eventName: 
+    timer: 2
     OnTimerEnd:
       m_PersistentCalls:
         m_Calls:
@@ -909,7 +962,8 @@ MonoBehaviour:
             m_StringArgument: Primer evento
             m_BoolArgument: 0
           m_CallState: 2
-  - timer: 60
+  - eventName: 
+    timer: 60
     OnTimerEnd:
       m_PersistentCalls:
         m_Calls:
@@ -925,7 +979,8 @@ MonoBehaviour:
             m_StringArgument: Segundo evento
             m_BoolArgument: 0
           m_CallState: 2
-  - timer: 30
+  - eventName: 
+    timer: 30
     OnTimerEnd:
       m_PersistentCalls:
         m_Calls:
@@ -939,6 +994,23 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: Tercer  evento
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventName: 
+    timer: 120
+    OnTimerEnd:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1263240992}
+          m_TargetAssemblyTypeName: EnviromentEventsWithTime, Assembly-CSharp
+          m_MethodName: DebugString
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Evento final
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!4 &1263240993
