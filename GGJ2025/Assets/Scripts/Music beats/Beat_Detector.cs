@@ -1,6 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Beat_Detector : MonoBehaviour
@@ -8,11 +6,15 @@ public class Beat_Detector : MonoBehaviour
     public event EventHandler OnBeat;
 
     [Header("Parameters")]
-    [Range(0, 7)] public int bandFrequency;
-    [HideInInspector ,Range(0, 63)] public int bandFrequency64;
-    [Range(0, 1)] public float beatThreshold;
-    [HideInInspector] public float changeFactor;
-    [HideInInspector] public bool use64 = false;
+    [Range(0, 7)]
+    public int bandFrequency;
+
+    [Range(0, 1)]
+    public float beatThreshold;
+
+    [HideInInspector]
+    public float changeFactor;
+
     public bool useRandom = false;
     public bool useRandomThreshold = false;
 
@@ -21,17 +23,29 @@ public class Beat_Detector : MonoBehaviour
     public bool Y;
     public bool Z;
 
-    [HideInInspector] public int tX;
-    [HideInInspector] public int tY;
-    [HideInInspector] public int tZ;
+    [HideInInspector]
+    public int tX;
 
-    private int randomBand64;
+    [HideInInspector]
+    public int tY;
+
+    [HideInInspector]
+    public int tZ;
+
     private int randomBand;
     private float randomThreshold;
+
+    private float lastBeatTime = -1f; // Last time a beat was triggered
+    private float minTimeBetweenBeats; // Minimum time interval between beats (retrieved from AudioSpectrumDetector)
 
     private void Awake()
     {
         OnRandom();
+    }
+
+    private void Start()
+    {
+        minTimeBetweenBeats = AudioSpectrumDetector.Instance.minTimeBetweenBeats; // Retrieve from AudioSpectrumDetector
     }
 
     private void Update()
@@ -39,67 +53,51 @@ public class Beat_Detector : MonoBehaviour
         OnUpdate();
     }
 
-    public virtual void OnUpdate()
+    protected virtual void OnUpdate()
     {
-
+        DetectBeat(bandFrequency);
     }
 
-    public void DetectBeat(int i)
+    public void DetectBeat(int bandIndex)
     {
-        if(use64)
+        if (bandIndex < 0 || bandIndex >= 8)
         {
-            if (AudioSpectrumDetector.Instance.AudioBandBuffer64()[i] >= beatThreshold)
-            {
-                OnBeating(i);
-            }
-            else if (changeFactor > 0)
-            {
-                changeFactor = 0;
-            }
+            Debug.LogWarning($"Band index {bandIndex} is out of range. Valid range is 0-7.");
+            return;
         }
-        else
+
+        float[] smoothedBands = AudioSpectrumDetector.Instance.SmoothedFrequencyBands();
+        float currentTime = Time.time;
+
+        // Check threshold and ensure minimum time between beats
+        if (
+            smoothedBands[bandIndex] >= beatThreshold
+            && currentTime - lastBeatTime >= minTimeBetweenBeats
+        )
         {
-            if (AudioSpectrumDetector.Instance.AudioBandBuffer()[i] >= beatThreshold)
-            {
-                OnBeating(i);
-            }
-            else if (changeFactor > 0)
-            {
-                changeFactor = 0;
-            }
+            OnBeating(bandIndex);
+            lastBeatTime = currentTime; // Update last beat time
+        }
+        else if (changeFactor > 0)
+        {
+            changeFactor = 0;
         }
     }
 
-    private void OnBeating(int i)
+    private void OnBeating(int bandIndex)
     {
         OnBeat?.Invoke(this, EventArgs.Empty);
-        if(use64)
-        {
-            changeFactor = AudioSpectrumDetector.Instance.AudioBandBuffer64()[i];
-
-        }
-        else
-        {
-            changeFactor = AudioSpectrumDetector.Instance.AudioBandBuffer()[i];
-        }
+        changeFactor = AudioSpectrumDetector.Instance.SmoothedFrequencyBands()[bandIndex];
     }
 
     private void OnRandom()
     {
-        if(useRandom)
+        if (useRandom)
         {
-            if (use64)
-            {
-                randomBand64 = UnityEngine.Random.Range(0, 63);
-                bandFrequency64 = randomBand64;
-            }
-            else
-            {
-                randomBand = UnityEngine.Random.Range(0, 7);
-                bandFrequency = randomBand;
-            }
+            randomBand = UnityEngine.Random.Range(0, 8);
+            bandFrequency = randomBand;
 
-            if(useRandomThreshold)
+            if (useRandomThreshold)
             {
                 randomThreshold = UnityEngine.Random.Range(0f, 1f);
                 beatThreshold = randomThreshold;

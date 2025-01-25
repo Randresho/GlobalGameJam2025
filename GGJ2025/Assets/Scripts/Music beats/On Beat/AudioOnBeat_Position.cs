@@ -1,13 +1,16 @@
-using MEC;
 using System.Collections;
 using System.Collections.Generic;
+using MEC;
 using UnityEngine;
 
 public class AudioOnBeat_Position : Beat_Detector
 {
     [Header("Audio Position")]
-    [SerializeField] private float moveSpeed;
-    [SerializeField] private float moveMultiplier;
+    [SerializeField]
+    private float moveSpeed;
+
+    [SerializeField]
+    private float moveMultiplier;
 
     private Vector3 targetPos;
     private Vector3 startPos;
@@ -20,37 +23,36 @@ public class AudioOnBeat_Position : Beat_Detector
         startPos = transform.position;
     }
 
-    public override void OnUpdate()
+    protected override void OnUpdate()
     {
         tX = X ? 1 : 0;
         tY = Y ? 1 : 0;
         tZ = Z ? 1 : 0;
 
-        if (use64)
+        DetectBeat(bandFrequency);
+        float currentBandValue = AudioSpectrumDetector.Instance.GetSmoothedBandValue(bandFrequency);
+
+        if (currentBandValue > 0)
         {
-            DetectBeat(bandFrequency64);
-            if (AudioSpectrumDetector.Instance.AudioBandBuffer64()[bandFrequency64] > 0)
-            {
-                Moving();
-            }
-        }
-        else
-        {
-            DetectBeat(bandFrequency);
-            if (AudioSpectrumDetector.Instance.AudioBandBuffer()[bandFrequency] > 0)
-            {
-                Moving();
-            }
+            Moving();
         }
     }
 
     private void Moving()
     {
-        targetPos = new Vector3((changeFactor * moveMultiplier * tX) + startPos.x, (changeFactor * moveMultiplier * tY) + startPos.y, (changeFactor * moveMultiplier * tZ) + startPos.z);
+        targetPos = new Vector3(
+            (changeFactor * moveMultiplier * tX) + startPos.x,
+            (changeFactor * moveMultiplier * tY) + startPos.y,
+            (changeFactor * moveMultiplier * tZ) + startPos.z
+        );
 
-        if(isMoving)
+        if (isMoving)
         {
-            transform.position = Vector3.Lerp(transform.position, targetPos, moveSpeed * Time.deltaTime);
+            transform.position = Vector3.Lerp(
+                transform.position,
+                targetPos,
+                moveSpeed * Time.deltaTime
+            );
 
             if (Vector3.Distance(transform.position, targetPos) < 0.1f)
             {
@@ -66,7 +68,11 @@ public class AudioOnBeat_Position : Beat_Detector
 
         while (Vector3.Distance(transform.position, startPos) > 0.1f)
         {
-            transform.position = Vector3.Lerp(transform.position, startPos, moveSpeed * Time.deltaTime);
+            transform.position = Vector3.Lerp(
+                transform.position,
+                startPos,
+                moveSpeed * Time.deltaTime
+            );
             yield return Timing.WaitForOneFrame;
         }
         transform.position = startPos;

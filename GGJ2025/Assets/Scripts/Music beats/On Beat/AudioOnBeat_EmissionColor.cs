@@ -5,43 +5,30 @@ using UnityEngine;
 public class AudioOnBeat_EmissionColor : Beat_Detector
 {
     private const string COLOREMISSION = "_Emission";
+
     [Header("Audio Emission Color")]
-    [SerializeField] private Material mat_Emissive;
+    [SerializeField]
+    private Material mat_Emissive;
 
     private void Start()
     {
         OnBeat += AudioOnBeat_EmissionColor_OnBeat;
     }
 
-    public override void OnUpdate()
+    protected override void OnUpdate()
     {
-        if (use64)
+        DetectBeat(bandFrequency);
+        float currentBandValue = AudioSpectrumDetector.Instance.GetSmoothedBandValue(bandFrequency);
+
+        if (currentBandValue > 0)
         {
-            DetectBeat(bandFrequency64);
-            if (AudioSpectrumDetector.Instance.AudioBandBuffer64()[bandFrequency64] > 0)
-            {
-                ChangeEmissionColor64(bandFrequency64);
-            }
-        }
-        else
-        {
-            DetectBeat(bandFrequency);
-            if (AudioSpectrumDetector.Instance.AudioBandBuffer()[bandFrequency] > 0)
-            {
-                ChangeEmissionColor(bandFrequency);
-            }
+            ChangeEmissionColor(currentBandValue);
         }
     }
 
-    private void ChangeEmissionColor(int i)
+    private void ChangeEmissionColor(float i)
     {
-        Color color_ = new Color(AudioSpectrumDetector.Instance.AudioBandBuffer()[i], AudioSpectrumDetector.Instance.AudioBandBuffer()[i], AudioSpectrumDetector.Instance.AudioBandBuffer()[i]);
-        mat_Emissive.SetColor(COLOREMISSION, color_);
-    }
-
-    private void ChangeEmissionColor64(int i)
-    {
-        Color color_ = new Color(AudioSpectrumDetector.Instance.AudioBandBuffer64()[i] , AudioSpectrumDetector.Instance.AudioBandBuffer64()[i], AudioSpectrumDetector.Instance.AudioBandBuffer64()[i]);
+        Color color_ = new Color(i, i, i);
         mat_Emissive.SetColor(COLOREMISSION, color_);
     }
 

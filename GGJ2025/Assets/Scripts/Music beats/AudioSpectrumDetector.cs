@@ -7,112 +7,24 @@ using UnityEngine.Audio;
 public class AudioSpectrumDetector : MonoBehaviour
 {
     public static AudioSpectrumDetector Instance;
-    private const int BANDS = 8; 
-    private const int BANDS64 = 64; 
+    private const int BANDS = 8;
 
-    private enum Channel { Stereo, Left, Right, };
-    [SerializeField] private Channel channel = new Channel();
-
-    [SerializeField] private AudioSource musicAudioSourceDetector;    
+    [SerializeField]
+    private AudioSource musicAudioSourceDetector;
 
     private float[] audioSpectrumLeft = new float[512];
     private float[] audioSpectrumRight = new float[512];
 
-    private float[] frequencyBand = new float[8];
-    private float[] bandBuffer = new float[8];
-    private float[] bufferDecrease = new float[8];
+    private float[] frequencyBand = new float[BANDS];
+    private float[] smoothedFrequencyBands = new float[BANDS]; // For smoothing
+    private float smoothingFactor = 0.2f; // Adjust to control smoothing (closer to 1 = less smoothing)
 
-    private float[] frequencyBandHighest = new float[8];
-    private float[] audioBand = new float[8];
-    private float[] audioBandBuffer = new float[8];
+    private float[] previousFrequencyBands = new float[BANDS]; // For onset detection
+    private float onsetThreshold = 0.1f; // Adjust to set sensitivity for detecting onsets
 
-    private float amplitude;
-    private float amplitudeBuffer;
-    private float amplitudeHighest;
+    private float[] lastOnsetTime = new float[BANDS]; // Last time an onset was detected for each band
 
-    private float audioProfile = 5f;
-
-    //Audio 64
-    private float[] frequencyBand64 = new float[64];
-    private float[] bandBuffer64 = new float[64];
-    private float[] bufferDecrease64 = new float[64];
-
-    private float[] frequencyBandHighest64 = new float[64];
-    private float[] audioBand64 = new float[64];
-    private float[] audioBandBuffer64 = new float[64];
-
-    #region Getters
-    #region Frequency Band
-    public float[] FrequencyBand()
-    {
-        return frequencyBand;
-    }
-
-    public float[] FrequencyBand64() 
-    {
-        return frequencyBand64;
-    }
-    #endregion
-
-    #region Band Buffer
-    public float[] BandBuffers()
-    {
-        return bandBuffer;
-    }
-
-    public float[] BandBuffers64()
-    {
-        return bandBuffer64;
-    }
-    #endregion
-
-    #region Frequency Band Highest
-    public float[] FrequencyBandHighest() 
-    {
-        return frequencyBandHighest;
-    }
-
-    public float[] FrequencyBandHighest64() 
-    {
-        return frequencyBandHighest64;
-    }
-    #endregion
-
-    #region Audio Band
-    public float[] AudioBand()
-    {
-        return audioBand;
-    }
-
-    public float[] AudioBand64()
-    {
-        return audioBand64;
-    }
-    #endregion
-
-    #region Audio Band Buffer
-    public float[] AudioBandBuffer()
-    {
-        return audioBandBuffer;
-    }
-    public float[] AudioBandBuffer64()
-    {
-        return audioBandBuffer64;
-    }
-    #endregion
-
-    #region Amplitude
-    public float Amplitude()
-    {
-        return amplitude;
-    }
-
-    public float AmplitudeBuffer()
-    {
-        return amplitudeBuffer;
-    }
-    #endregion
-    #endregion
+    public float minTimeBetweenBeats = 0.5f; // Minimum time interval between beats in seconds (300 BPM max)
 
     private void Awake()
     {
@@ -121,7 +33,13 @@ public class AudioSpectrumDetector : MonoBehaviour
 
     private void Start()
     {
-        AudioProfile(audioProfile);
+        // Initialize frequency bands with small values to prevent divide-by-zero issues
+        for (int i = 0; i < BANDS; i++)
+        {
+            smoothedFrequencyBands[i] = 0f;
+            previousFrequencyBands[i] = 0f;
+            lastOnsetTime[i] = -minTimeBetweenBeats; // Ensure beats can be detected initially
+        }
     }
 
     private void Update()
@@ -129,15 +47,8 @@ public class AudioSpectrumDetector : MonoBehaviour
         GetSpectrumAudio();
 
         MakeFrequencyBands();
-        MakeFrequencyBands64();
-
-        BandBuffer();
-        BandBuffer64();
-
-        CreateAudioBand();
-        CreateAudioBand64();
-
-        GetAmplitude();
+        SmoothFrequencyBands(); // Apply smoothing
+        DetectOnset(); // Perform onset detection
     }
 
     private void GetSpectrumAudio()
@@ -146,7 +57,25 @@ public class AudioSpectrumDetector : MonoBehaviour
         musicAudioSourceDetector.GetSpectrumData(audioSpectrumRight, 1, FFTWindow.Blackman);
     }
 
-    #region Make Frequency Band
+    public float[] SmoothedFrequencyBands()
+    {
+        return smoothedFrequencyBands;
+    }
+
+    public float GetSmoothedBandValue(int bandIndex)
+    {
+        if (bandIndex < 0 || bandIndex >= BANDS)
+        {
+            Debug.LogError(
+                $"Band index {bandIndex} is out of range. Valid range is 0 to {BANDS - 1}."
+            );
+            return 0f;
+        }
+
+        return smoothedFrequencyBands[bandIndex];
+    }
+
+    #region Make Frequency Bands
     private void MakeFrequencyBands()
     {
         int count = 0;
@@ -156,175 +85,59 @@ public class AudioSpectrumDetector : MonoBehaviour
             float average = 0;
             int sampleCount = (int)Mathf.Pow(2, i) * 2;
 
-            if (i == 7)
+            if (i == BANDS - 1) // Last band
             {
                 sampleCount += 2;
             }
 
             for (int j = 0; j < sampleCount; j++)
             {
-                switch (channel)
-                {
-                    case Channel.Stereo:
-                        average += (audioSpectrumLeft[count] + audioSpectrumRight[count]) * (count + 1);
-                        break;
-                    case Channel.Left:
-                        average += (audioSpectrumLeft[count]) * (count + 1);
-                        break;
-                    case Channel.Right:
-                        average += (audioSpectrumRight[count]) * (count + 1);
-                        break;
-                    default:
-                        break;
-                }
+                average += (audioSpectrumLeft[count] + audioSpectrumRight[count]) * (count + 1);
                 count++;
             }
+
             average /= count;
             frequencyBand[i] = average * 10;
         }
     }
+    #endregion
 
-    private void MakeFrequencyBands64()
+    #region Smooth Frequency Bands
+    private void SmoothFrequencyBands()
     {
-        int count = 0;
-        int sampleCount = 1;
-        int power = 0;
-
-        for (int i = 0; i < BANDS64; i++)
+        for (int i = 0; i < BANDS; i++)
         {
-            float average = 0;
-
-            if (i == 16 || i == 32 || i == 40 || i == 48 || i == 56)
-            {
-                power++;
-                sampleCount = (int)Mathf.Pow(2, power);
-
-                if(power == 3)
-                {
-                    sampleCount -= 2;
-                }
-            }
-
-            for (int j = 0; j < sampleCount; j++)
-            {
-                switch (channel)
-                {
-                    case Channel.Stereo:
-                        average += (audioSpectrumLeft[count] + audioSpectrumRight[count]) * (count + 1);
-                        break;
-                    case Channel.Left:
-                        average += (audioSpectrumLeft[count]) * (count + 1);
-                        break;
-                    case Channel.Right:
-                        average += (audioSpectrumRight[count]) * (count + 1);
-                        break;
-                    default:
-                        break;
-                }
-                count++;
-            }
-
-            average /= count;
-            frequencyBand64[i] = average * 80;
+            smoothedFrequencyBands[i] = Mathf.Lerp(
+                smoothedFrequencyBands[i],
+                frequencyBand[i],
+                smoothingFactor
+            );
         }
     }
     #endregion
 
-    #region Band Buffer
-    private void BandBuffer()
+    #region Onset Detection
+    private void DetectOnset()
     {
+        float currentTime = Time.time;
+
         for (int i = 0; i < BANDS; i++)
         {
-            if (frequencyBand[i] > bandBuffer[i])
+            // Calculate energy difference
+            float energyDifference = smoothedFrequencyBands[i] - previousFrequencyBands[i];
+
+            // Check if the energy difference exceeds the threshold
+            if (
+                energyDifference > onsetThreshold
+                && currentTime - lastOnsetTime[i] >= minTimeBetweenBeats
+            )
             {
-                bandBuffer[i] = frequencyBand[i];
-                bufferDecrease[i] = 0.005f;              
+                lastOnsetTime[i] = currentTime; // Update last onset time
             }
 
-            if (frequencyBand[i] < bandBuffer[i])
-            {
-                bandBuffer[i] -= bufferDecrease[i];
-                bufferDecrease[i] *= 1.2f;
-            }
-        }
-    }
-
-    private void BandBuffer64()
-    {
-        for (int i = 0; i < BANDS64; i++)
-        {
-            if (frequencyBand64[i] > bandBuffer64[i])
-            {
-                bandBuffer64[i] = frequencyBand64[i];
-                bufferDecrease64[i] = 0.005f;
-            }
-
-            if (frequencyBand64[i] < bandBuffer64[i])
-            {
-                bandBuffer64[i] -= bufferDecrease64[i];
-                bufferDecrease64[i] *= 1.2f;
-            }
+            // Update previous frequency band for the next frame
+            previousFrequencyBands[i] = smoothedFrequencyBands[i];
         }
     }
     #endregion
-
-    #region Create Audio Bands
-    private void CreateAudioBand()
-    {
-        for (int i = 0; i < BANDS; i++)
-        {
-            if (frequencyBand[i] > frequencyBandHighest[i])
-            {
-                frequencyBandHighest[i] = frequencyBand[i];
-            }
-
-            audioBand[i] = (frequencyBand[i] / frequencyBandHighest[i]);
-
-            audioBandBuffer[i] = (bandBuffer[i] / frequencyBandHighest[i]);
-        }
-    }
-
-    private void CreateAudioBand64()
-    {
-        for (int i = 0; i < BANDS64; i++)
-        {
-            if (frequencyBand64[i] > frequencyBandHighest64[i])
-            {
-                frequencyBandHighest64[i] = frequencyBand64[i];
-            }
-
-            audioBand64[i] = (frequencyBand64[i] / frequencyBandHighest64[i]);
-
-            audioBandBuffer64[i] = (bandBuffer64[i] / frequencyBandHighest64[i]);
-        }
-    }
-    #endregion
-
-    private void GetAmplitude()
-    {
-        float curAmplitude = 0;
-        float curAmplitudeBuffer = 0;
-
-        for (int i = 0; i < BANDS; i++) 
-        {
-            curAmplitude += audioBand[i];
-            curAmplitudeBuffer += audioBandBuffer[i];
-        }
-
-        if(curAmplitude > amplitudeHighest)
-        {
-            amplitudeHighest = curAmplitude;
-        }
-
-        amplitude = curAmplitude / amplitudeHighest;
-        amplitudeBuffer = curAmplitudeBuffer / amplitudeHighest;
-    }   
-
-    private void AudioProfile(float audioProfile)
-    {
-        for (int i = 0; i < BANDS; i++)
-        {
-            frequencyBandHighest[i] = audioProfile;
-        }
-    }
 }
