@@ -47,11 +47,6 @@ public class InputManager : MonoBehaviour, InputActions.IPlayerActions, InputAct
         inputActions.UI.SetCallbacks(this);
     }
 
-    private void Start()
-    {
-        SetInputType("ui");
-    }
-
     public void SetInputType(string type)
     {
         switch (type)
