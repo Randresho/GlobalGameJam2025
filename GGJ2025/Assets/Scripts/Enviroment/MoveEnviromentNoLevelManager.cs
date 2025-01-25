@@ -9,7 +9,7 @@ public class MoveEnviromentNoLevelManager : MonoBehaviour
 
     void FixedUpdate()
     {
-        if(!GameManager.instance.IsSongOver() || GameManager.instance.StartGame())
+        if(!GameManager.instance.IsSongOver() && GameManager.instance.StartGame())
             transform.Translate(0f, Time.fixedDeltaTime * moveSpeed, 0f);
     }
 }

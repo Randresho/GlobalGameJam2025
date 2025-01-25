@@ -1,8 +1,12 @@
+using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+
+    public UnityEvent OnSongEnd;
 
     public float totalSongTimer;
     public float curSongTimer;
@@ -31,7 +35,7 @@ public class GameManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        InputManager.Instance.SetInputType("pause");
+        InputManager.Instance.SetInputType("ui");
         startGame = false;
     }
 
@@ -44,6 +48,7 @@ public class GameManager : MonoBehaviour
             {
                 isSongOver = true;
                 startGame = false;
+                OnSongEnd?.Invoke();
             }
             else if (curSongTimer < totalSongTimer && !isSongOver)
             {
@@ -65,12 +70,13 @@ public class GameManager : MonoBehaviour
     public void StartTheGame()
     {
         curSongTimer = 0f;
-        startGame = true;
+        isSongOver = false;
+        ChangeGameStatus(true);
     }
 
-    public void ChangeGameStatus()
+    public void ChangeGameStatus(bool state)
     {
-        startGame = !startGame;
+        startGame = state;
     }
 
     public void UpdateScore(int modifier)

@@ -10,15 +10,20 @@ public class EnviromentEventsWithTime : MonoBehaviour
 
     void Start()
     {
-        foreach (EventTimers timer in eventsTimers)
-        {
-            timer.TimerToActive();
-        }        
+                
     }
 
     public void DebugString(string str)
     {
         Debug.Log(str);
+    }
+
+    public void StartGame() 
+    {
+        foreach (EventTimers timer in eventsTimers)
+        {
+            timer.StartGame();
+        }
     }
 
     public void Pause()
@@ -37,13 +42,22 @@ public class EnviromentEventsWithTime : MonoBehaviour
         }
     }
 
+    public void Stop()
+    {
+        foreach (EventTimers timer in eventsTimers)
+        {
+            timer.Stop();
+        }
+    }
+
     [System.Serializable]
     public class EventTimers
     {
+        public string eventName;
         public float timer;
         public UnityEvent OnTimerEnd;
 
-        public void TimerToActive()
+        public void StartGame()
         {
             if(timer <= GameManager.instance.totalSongTimer)
                 Timing.RunCoroutine(TimerActive(), "Timer");
@@ -57,6 +71,11 @@ public class EnviromentEventsWithTime : MonoBehaviour
         public void Resume()
         {
             Timing.ResumeCoroutines("Timer");
+        }
+
+        public void Stop()
+        {
+            Timing.KillCoroutines("Timer");
         }
 
         private IEnumerator<float> TimerActive()
