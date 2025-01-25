@@ -6,12 +6,19 @@ public class GameManager : MonoBehaviour
 
     public float totalSongTimer;
     public float curSongTimer;
-    [SerializeField] private bool isSongOver;
-    [SerializeField] private bool startGame;
+
+    [SerializeField]
+    private bool isSongOver;
+
+    [SerializeField]
+    private bool startGame;
+
+    [field: SerializeField]
+    public int Score { get; private set; }
 
     private void Awake()
     {
-        if(instance == null && instance != this) 
+        if (instance == null && instance != this)
         {
             instance = this;
         }
@@ -31,7 +38,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(startGame)
+        if (startGame)
         {
             if (curSongTimer >= totalSongTimer && !isSongOver)
             {
@@ -64,5 +71,10 @@ public class GameManager : MonoBehaviour
     public void ChangeGameStatus()
     {
         startGame = !startGame;
+    }
+
+    public void UpdateScore(int modifier)
+    {
+        Score += modifier;
     }
 }
