@@ -1,14 +1,17 @@
-using MEC;
 using System.Collections;
 using System.Collections.Generic;
+using MEC;
 using UnityEngine;
 using UnityEngine.UIElements;
 
 public class AudioOnBeat_Rotation : Beat_Detector
 {
     [Header("Audio Rotation")]
-    [SerializeField] private float rotationSpeed;
-    [SerializeField] private float rotationMultiplier;
+    [SerializeField]
+    private float rotationSpeed;
+
+    [SerializeField]
+    private float rotationMultiplier;
 
     private Vector3 rotationAngle;
     private Quaternion startRotation;
@@ -24,34 +27,28 @@ public class AudioOnBeat_Rotation : Beat_Detector
         RotateOnBeat();
     }
 
-    public override void OnUpdate()
+    protected override void OnUpdate()
     {
         tX = X ? 1 : 0;
         tY = Y ? 1 : 0;
         tZ = Z ? 1 : 0;
 
-        if(use64)
-        {
-            DetectBeat(bandFrequency64);
-            if (AudioSpectrumDetector.Instance.AudioBandBuffer64()[bandFrequency64] > 0)
-            {
-                RotateOnBeat();
-            }
-        }
-        else
-        {
-            DetectBeat(bandFrequency);
-            if (AudioSpectrumDetector.Instance.AudioBandBuffer()[bandFrequency] > 0)
-            {
-                RotateOnBeat();
-            }
-        }
+        DetectBeat(bandFrequency);
+        float currentBandValue = AudioSpectrumDetector.Instance.GetSmoothedBandValue(bandFrequency);
 
+        if (currentBandValue > 0)
+        {
+            RotateOnBeat();
+        }
     }
 
     private void RotateOnBeat()
     {
-        rotationAngle = new Vector3((changeFactor * rotationMultiplier * tX) + startRotation.x, (changeFactor * rotationMultiplier * tY) + startRotation.y, (changeFactor * rotationMultiplier * tZ) + startRotation.z);
+        rotationAngle = new Vector3(
+            (changeFactor * rotationMultiplier * tX) + startRotation.x,
+            (changeFactor * rotationMultiplier * tY) + startRotation.y,
+            (changeFactor * rotationMultiplier * tZ) + startRotation.z
+        );
 
         transform.Rotate(rotationAngle, Space.Self);
         Timing.RunCoroutine(ReturnOrigin());
@@ -59,9 +56,13 @@ public class AudioOnBeat_Rotation : Beat_Detector
 
     private IEnumerator<float> ReturnOrigin()
     {
-        while(Quaternion.Angle(transform.rotation, startRotation) > 0.01f)
+        while (Quaternion.Angle(transform.rotation, startRotation) > 0.01f)
         {
-            transform.rotation = Quaternion.Slerp(transform.rotation, startRotation, rotationSpeed * Time.deltaTime);
+            transform.rotation = Quaternion.Slerp(
+                transform.rotation,
+                startRotation,
+                rotationSpeed * Time.deltaTime
+            );
             yield return Timing.WaitForOneFrame;
         }
 
