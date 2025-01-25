@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public float totalSongTimer;
     public float curSongTimer;
     [SerializeField] private bool isSongOver;
+    [SerializeField] private bool startGame;
 
     private void Awake()
     {
@@ -23,24 +24,45 @@ public class GameManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        InputManager.Instance.SetInputType("ui");
+        InputManager.Instance.SetInputType("pause");
+        startGame = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(curSongTimer >= totalSongTimer && !isSongOver)
+        if(startGame)
         {
-            isSongOver = true;
-        }
-        else if (curSongTimer < totalSongTimer && !isSongOver)
-        {
-            curSongTimer += Time.deltaTime;
+            if (curSongTimer >= totalSongTimer && !isSongOver)
+            {
+                isSongOver = true;
+                startGame = false;
+            }
+            else if (curSongTimer < totalSongTimer && !isSongOver)
+            {
+                curSongTimer += Time.deltaTime;
+            }
         }
     }
 
     public bool IsSongOver()
     {
         return isSongOver;
+    }
+
+    public bool StartGame()
+    {
+        return startGame;
+    }
+
+    public void StartTheGame()
+    {
+        curSongTimer = 0f;
+        startGame = true;
+    }
+
+    public void ChangeGameStatus()
+    {
+        startGame = !startGame;
     }
 }

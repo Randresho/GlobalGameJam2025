@@ -51,6 +51,7 @@ public class InputManager : MonoBehaviour, InputActions.IPlayerActions, InputAct
 
         inputActions.Player.SetCallbacks(this);
         inputActions.UI.SetCallbacks(this);
+        inputActions.Pause.SetCallbacks(this);
     }
 
     public void SetInputType(string type)
