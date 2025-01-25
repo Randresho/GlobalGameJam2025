@@ -1,4 +1,5 @@
 using System.Collections;
+using UnityEditor.U2D.Aseprite;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -15,18 +16,24 @@ public class BeatBase : MonoBehaviour
     }
 
     [SerializeField]
-    private float deathDelay;
-
-    [SerializeField]
     private BubbleStages state = BubbleStages.IDLE;
 
+    [SerializeField]
+    private float deathDelay;
+
     private float travelSpeed;
-    private float scoreValue;
+    private int scoreValue;
+    private float earlyPenalty;
+    private float latePenalty;
 
     private bool moving = false;
     private bool deathTriggered = false;
 
     private UnityEvent pressedCallback;
+    private UnityEvent onEarlyPress;
+    private UnityEvent onPerfectPress;
+    private UnityEvent onLatePress;
+    private UnityEvent onDeath;
 
     private void Awake()
     {
@@ -54,14 +61,33 @@ public class BeatBase : MonoBehaviour
             Move();
     }
 
-    public void Initialize(float speed, int score, UnityEvent handler)
+    public void Initialize(float speed, UnityEvent handler)
     {
         travelSpeed = speed;
-        scoreValue = score;
         moving = true;
         state = BubbleStages.MOVING;
         pressedCallback = handler;
         pressedCallback.AddListener(OnPressed);
+    }
+
+    public void SetScoreSettings(int score, float early, float late)
+    {
+        scoreValue = score;
+        earlyPenalty = early;
+        latePenalty = late;
+    }
+
+    public void SetCallbacks(
+        UnityEvent early,
+        UnityEvent perfect,
+        UnityEvent late,
+        UnityEvent death
+    )
+    {
+        onEarlyPress = early;
+        onPerfectPress = perfect;
+        onLatePress = late;
+        onDeath = death;
     }
 
     protected virtual void OnPressed()
@@ -69,13 +95,22 @@ public class BeatBase : MonoBehaviour
         switch (state)
         {
             case BubbleStages.EARLY:
-                GameManager.instance.UpdateScore(Mathf.CeilToInt(scoreValue * .75f));
+                GameManager.instance.UpdateScore(Mathf.CeilToInt(scoreValue * earlyPenalty));
+                Cleanup();
+                onEarlyPress.Invoke();
+                Destroy(gameObject);
                 break;
             case BubbleStages.PERFECT:
                 GameManager.instance.UpdateScore(Mathf.CeilToInt(scoreValue));
+                Cleanup();
+                onPerfectPress.Invoke();
+                Destroy(gameObject);
                 break;
             case BubbleStages.LATE:
-                GameManager.instance.UpdateScore(Mathf.CeilToInt(scoreValue * .5f));
+                GameManager.instance.UpdateScore(Mathf.CeilToInt(scoreValue * latePenalty));
+                Cleanup();
+                onLatePress.Invoke();
+                Destroy(gameObject);
                 break;
         }
     }
@@ -113,10 +148,16 @@ public class BeatBase : MonoBehaviour
 
     protected virtual IEnumerator BaseDeathSequence()
     {
+        Cleanup();
+        yield return new WaitForSeconds(deathDelay);
+        onDeath.Invoke();
+        Destroy(gameObject);
+    }
+
+    protected virtual void Cleanup()
+    {
         deathTriggered = true;
         pressedCallback.RemoveListener(OnPressed);
         pressedCallback = null;
-        yield return new WaitForSeconds(deathDelay);
-        Destroy(gameObject);
     }
 }

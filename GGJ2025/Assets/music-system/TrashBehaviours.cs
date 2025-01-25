@@ -7,4 +7,9 @@ public class TrashBehaviours : MonoBehaviour
     {
         InputManager.Instance.SetInputType("player");
     }
+
+    public void Deb(string message)
+    {
+        Debug.Log($"{message}");
+    }
 }
