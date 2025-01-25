@@ -21,6 +21,21 @@ public class EnviromentEventsWithTime : MonoBehaviour
         Debug.Log(str);
     }
 
+    public void Pause()
+    {
+        foreach (EventTimers timer in eventsTimers)
+        {
+            timer.Pause();
+        }
+    }
+
+    public void Resume()
+    {
+        foreach (EventTimers timer in eventsTimers)
+        {
+            timer.Resume();
+        }
+    }
 
     [System.Serializable]
     public class EventTimers
@@ -32,6 +47,16 @@ public class EnviromentEventsWithTime : MonoBehaviour
         {
             if(timer <= GameManager.instance.totalSongTimer)
                 Timing.RunCoroutine(TimerActive(), "Timer");
+        }
+
+        public void Pause()
+        {
+            Timing.PauseCoroutines("Timer");
+        }
+
+        public void Resume()
+        {
+            Timing.ResumeCoroutines("Timer");
         }
 
         private IEnumerator<float> TimerActive()

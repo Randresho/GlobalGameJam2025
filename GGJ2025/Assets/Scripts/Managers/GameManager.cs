@@ -6,16 +6,12 @@ public class GameManager : MonoBehaviour
 
     public float totalSongTimer;
     public float curSongTimer;
-
-    [SerializeField]
-    private bool isSongOver;
-
-    [field: SerializeField]
-    public int Score { get; private set; }
+    [SerializeField] private bool isSongOver;
+    [SerializeField] private bool startGame;
 
     private void Awake()
     {
-        if (instance == null && instance != this)
+        if(instance == null && instance != this) 
         {
             instance = this;
         }
@@ -28,20 +24,24 @@ public class GameManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Score = 0;
-        InputManager.Instance.SetInputType("ui");
+        InputManager.Instance.SetInputType("pause");
+        startGame = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (curSongTimer >= totalSongTimer && !isSongOver)
+        if(startGame)
         {
-            isSongOver = true;
-        }
-        else if (curSongTimer < totalSongTimer && !isSongOver)
-        {
-            curSongTimer += Time.deltaTime;
+            if (curSongTimer >= totalSongTimer && !isSongOver)
+            {
+                isSongOver = true;
+                startGame = false;
+            }
+            else if (curSongTimer < totalSongTimer && !isSongOver)
+            {
+                curSongTimer += Time.deltaTime;
+            }
         }
     }
 
@@ -50,8 +50,19 @@ public class GameManager : MonoBehaviour
         return isSongOver;
     }
 
-    public void UpdateScore(int modifier)
+    public bool StartGame()
     {
-        Score += modifier;
+        return startGame;
+    }
+
+    public void StartTheGame()
+    {
+        curSongTimer = 0f;
+        startGame = true;
+    }
+
+    public void ChangeGameStatus()
+    {
+        startGame = !startGame;
     }
 }
