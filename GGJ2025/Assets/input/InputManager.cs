@@ -3,11 +3,11 @@ using UnityEngine.Events;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Haptics;
 
-public class InputManager : MonoBehaviour, InputActions.IPlayerActions, InputActions.IUIActions
+public class InputManager : MonoBehaviour, InputActions.IPlayerActions, InputActions.IUIActions, InputActions.IPauseActions
 {
     private InputActions inputActions;
 
-    private static InputManager Instance;
+    public static InputManager Instance;
 
     public UnityEvent OnLeftPressed = new();
     public UnityEvent OnLeftReleased = new();
@@ -29,6 +29,12 @@ public class InputManager : MonoBehaviour, InputActions.IPlayerActions, InputAct
 
     public UnityEvent OnCancelPressed = new();
     public UnityEvent OnCancelReleased = new();
+
+    public UnityEvent OnResumePressed = new();
+    public UnityEvent OnResumeReleased = new();
+
+    public UnityEvent OnMainMenuPressed = new();
+    public UnityEvent OnMainMenuReleased = new();
 
     private void Awake()
     {
@@ -54,10 +60,17 @@ public class InputManager : MonoBehaviour, InputActions.IPlayerActions, InputAct
             case "player":
                 inputActions.Player.Enable();
                 inputActions.UI.Disable();
+                inputActions.Pause.Disable();
                 break;
             case "ui":
                 inputActions.UI.Enable();
                 inputActions.Player.Disable();
+                inputActions.Pause.Disable();
+                break;
+            case "pause":
+                inputActions.UI.Disable();
+                inputActions.Player.Disable();
+                inputActions.Pause.Enable();
                 break;
             default:
                 Debug.LogError($"The target input type ({type}) doesn't exist.");
@@ -69,6 +82,7 @@ public class InputManager : MonoBehaviour, InputActions.IPlayerActions, InputAct
     {
         inputActions.Player.Disable();
         inputActions.UI.Disable();
+        inputActions.Pause.Disable();
     }
 
     public void OnLeft(InputAction.CallbackContext context)
@@ -158,6 +172,31 @@ public class InputManager : MonoBehaviour, InputActions.IPlayerActions, InputAct
                 break;
             case InputActionPhase.Canceled:
                 OnCancelReleased.Invoke();
+                break;
+        }
+    }
+
+    public void OnResume(InputAction.CallbackContext context)
+    {
+        switch (context.phase)
+        {
+            case InputActionPhase.Performed:
+                OnResumePressed.Invoke();
+                break;
+            case InputActionPhase.Canceled:
+                OnResumeReleased.Invoke();
+                break;
+        }
+    }
+    public void OnMainMenu(InputAction.CallbackContext context)
+    {
+        switch (context.phase)
+        {
+            case InputActionPhase.Performed:
+                OnMainMenuPressed.Invoke();
+                break;
+            case InputActionPhase.Canceled:
+                OnMainMenuReleased.Invoke();
                 break;
         }
     }
