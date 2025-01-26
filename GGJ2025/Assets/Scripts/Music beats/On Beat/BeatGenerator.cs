@@ -14,6 +14,7 @@ public class BeatGenerator : Beat_Detector
         DOWN
     };
 
+    [Header("General Setup")]
     [SerializeField]
     private BeatButtons targetButton;
 
@@ -21,10 +22,30 @@ public class BeatGenerator : Beat_Detector
     private BeatBase beatPrefab;
 
     [SerializeField]
+    private float beatTravelSpeed;
+
+    [Header("Score Setup")]
+    [SerializeField]
     private int beatScore;
 
     [SerializeField]
-    private float beatTravelSpeed;
+    private float earlyPenalty = 0.75f;
+
+    [SerializeField]
+    private float latePenalty = 0.5f;
+
+    [Header("Events")]
+    [SerializeField]
+    private UnityEvent onEarly = new();
+
+    [SerializeField]
+    private UnityEvent onPerfect = new();
+
+    [SerializeField]
+    private UnityEvent onLate = new();
+
+    [SerializeField]
+    private UnityEvent onDeath = new();
 
     private UnityEvent OnButtonPressed = new();
 
@@ -82,7 +103,9 @@ public class BeatGenerator : Beat_Detector
 
         var beat = Instantiate(beatPrefab, transform.position, quaternion.identity);
 
-        beat.Initialize(beatTravelSpeed, beatScore, OnButtonPressed);
+        beat.Initialize(beatTravelSpeed, OnButtonPressed);
+        beat.SetScoreSettings(beatScore, earlyPenalty, latePenalty);
+        beat.SetCallbacks(onEarly, onPerfect, onLate, onDeath);
     }
 
     private void ButtonPressedHandler()
