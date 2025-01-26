@@ -15,6 +15,7 @@ public class AudioManager_Menu : MonoBehaviour
 
     private void Awake()
     {
+        Timing.RunCoroutine(FadeIn());
     }
 
     public void PlayAudio(AudioClip clip)
@@ -24,9 +25,16 @@ public class AudioManager_Menu : MonoBehaviour
 
     public void PlayFade()
     {
-        Timing.RunCoroutine(Fade());
+        Timing.RunCoroutine(FadeOut());
     }
-    private IEnumerator<float> Fade()
+
+    private IEnumerator<float> FadeIn()
+    {
+        yield return Timing.WaitForSeconds(0f);
+        mixer.DOSetFloat("MenusMusic", 0f, 0f);
+    }
+
+    private IEnumerator<float> FadeOut()
     {
         yield return Timing.WaitForSeconds(0f);
         mixer.DOSetFloat("MenusMusic", -80f, 0f);
