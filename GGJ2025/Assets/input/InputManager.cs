@@ -7,7 +7,8 @@ public class InputManager
     : MonoBehaviour,
         InputActions.IPlayerActions,
         InputActions.IUIActions,
-        InputActions.IPauseActions
+        InputActions.IPauseActions,
+        InputActions.ICreditsActions
 {
     private InputActions inputActions;
 
@@ -40,6 +41,9 @@ public class InputManager
     public UnityEvent OnMainMenuPressed = new();
     public UnityEvent OnMainMenuReleased = new();
 
+    public UnityEvent OnCreditsPressed = new();
+    public UnityEvent OnCreditsReleased = new();
+
     private void Awake()
     {
         if (Instance == null)
@@ -56,6 +60,7 @@ public class InputManager
         inputActions.Player.SetCallbacks(this);
         inputActions.UI.SetCallbacks(this);
         inputActions.Pause.SetCallbacks(this);
+        inputActions.Credits.SetCallbacks(this);
     }
 
     public void SetInputType(string type)
@@ -66,21 +71,30 @@ public class InputManager
                 inputActions.Player.Enable();
                 inputActions.UI.Disable();
                 inputActions.Pause.Disable();
+                inputActions.Credits.Disable();
                 break;
             case "ui":
                 inputActions.UI.Enable();
                 inputActions.Player.Disable();
                 inputActions.Pause.Disable();
+                inputActions.Credits.Disable();
                 break;
             case "pause":
                 inputActions.UI.Disable();
                 inputActions.Player.Disable();
                 inputActions.Pause.Enable();
+                inputActions.Credits.Disable();
+                break;
+            case "credits":
+                inputActions.UI.Disable();
+                inputActions.Player.Disable();
+                inputActions.Pause.Disable();
+                inputActions.Credits.Enable();
                 break;
             default:
-                Debug.LogError($"The target input type ({type}) doesn't exist.");
                 break;
         }
+        Debug.Log($"The target input type ({type}) doesn't exist.");
     }
 
     private void OnDisable()
@@ -88,6 +102,7 @@ public class InputManager
         inputActions.Player.Disable();
         inputActions.UI.Disable();
         inputActions.Pause.Disable();
+        inputActions.Credits.Disable();
     }
 
     public void OnLeft(InputAction.CallbackContext context)
@@ -203,6 +218,19 @@ public class InputManager
                 break;
             case InputActionPhase.Canceled:
                 OnMainMenuReleased.Invoke();
+                break;
+        }
+    }
+
+    public void OnRestart(InputAction.CallbackContext context)
+    {
+        switch (context.phase)
+        {
+            case InputActionPhase.Performed:
+                OnCreditsPressed.Invoke();
+                break;
+            case InputActionPhase.Canceled:
+                OnCreditsReleased.Invoke();
                 break;
         }
     }

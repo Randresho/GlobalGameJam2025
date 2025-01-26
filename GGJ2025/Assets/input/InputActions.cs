@@ -325,6 +325,76 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Credits"",
+            ""id"": ""11b934f3-e6b4-498a-adfb-fc5d87eb7756"",
+            ""actions"": [
+                {
+                    ""name"": ""Restart"",
+                    ""type"": ""Button"",
+                    ""id"": ""e75c7098-66e8-48c7-848e-eb328529ff2f"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Cancel"",
+                    ""type"": ""Button"",
+                    ""id"": ""5d7a0547-16ab-4ece-a883-c8dcbb3c9055"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""f9fa0017-e33e-4e02-b712-438acfb7d6f7"",
+                    ""path"": ""<Keyboard>/anyKey"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Restart"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2c933f51-9652-4392-8520-af47bc61896d"",
+                    ""path"": ""<Gamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad"",
+                    ""action"": ""Restart"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c4cf077a-1b25-42be-9885-9ec45788b163"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Keyboard&Mouse"",
+                    ""action"": ""Cancel"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0e4f7b3c-6eb0-4822-a397-350794b86000"",
+                    ""path"": ""<Gamepad>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": "";Gamepad"",
+                    ""action"": ""Cancel"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -405,6 +475,10 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
         m_Pause = asset.FindActionMap("Pause", throwIfNotFound: true);
         m_Pause_Resume = m_Pause.FindAction("Resume", throwIfNotFound: true);
         m_Pause_MainMenu = m_Pause.FindAction("MainMenu", throwIfNotFound: true);
+        // Credits
+        m_Credits = asset.FindActionMap("Credits", throwIfNotFound: true);
+        m_Credits_Restart = m_Credits.FindAction("Restart", throwIfNotFound: true);
+        m_Credits_Cancel = m_Credits.FindAction("Cancel", throwIfNotFound: true);
     }
 
     ~@InputActions()
@@ -412,6 +486,7 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
         UnityEngine.Debug.Assert(!m_Player.enabled, "This will cause a leak and performance issues, InputActions.Player.Disable() has not been called.");
         UnityEngine.Debug.Assert(!m_UI.enabled, "This will cause a leak and performance issues, InputActions.UI.Disable() has not been called.");
         UnityEngine.Debug.Assert(!m_Pause.enabled, "This will cause a leak and performance issues, InputActions.Pause.Disable() has not been called.");
+        UnityEngine.Debug.Assert(!m_Credits.enabled, "This will cause a leak and performance issues, InputActions.Credits.Disable() has not been called.");
     }
 
     public void Dispose()
@@ -655,6 +730,60 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
         }
     }
     public PauseActions @Pause => new PauseActions(this);
+
+    // Credits
+    private readonly InputActionMap m_Credits;
+    private List<ICreditsActions> m_CreditsActionsCallbackInterfaces = new List<ICreditsActions>();
+    private readonly InputAction m_Credits_Restart;
+    private readonly InputAction m_Credits_Cancel;
+    public struct CreditsActions
+    {
+        private @InputActions m_Wrapper;
+        public CreditsActions(@InputActions wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Restart => m_Wrapper.m_Credits_Restart;
+        public InputAction @Cancel => m_Wrapper.m_Credits_Cancel;
+        public InputActionMap Get() { return m_Wrapper.m_Credits; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(CreditsActions set) { return set.Get(); }
+        public void AddCallbacks(ICreditsActions instance)
+        {
+            if (instance == null || m_Wrapper.m_CreditsActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_CreditsActionsCallbackInterfaces.Add(instance);
+            @Restart.started += instance.OnRestart;
+            @Restart.performed += instance.OnRestart;
+            @Restart.canceled += instance.OnRestart;
+            @Cancel.started += instance.OnCancel;
+            @Cancel.performed += instance.OnCancel;
+            @Cancel.canceled += instance.OnCancel;
+        }
+
+        private void UnregisterCallbacks(ICreditsActions instance)
+        {
+            @Restart.started -= instance.OnRestart;
+            @Restart.performed -= instance.OnRestart;
+            @Restart.canceled -= instance.OnRestart;
+            @Cancel.started -= instance.OnCancel;
+            @Cancel.performed -= instance.OnCancel;
+            @Cancel.canceled -= instance.OnCancel;
+        }
+
+        public void RemoveCallbacks(ICreditsActions instance)
+        {
+            if (m_Wrapper.m_CreditsActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        public void SetCallbacks(ICreditsActions instance)
+        {
+            foreach (var item in m_Wrapper.m_CreditsActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_CreditsActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    public CreditsActions @Credits => new CreditsActions(this);
     private int m_KeyboardMouseSchemeIndex = -1;
     public InputControlScheme KeyboardMouseScheme
     {
@@ -717,5 +846,10 @@ public partial class @InputActions: IInputActionCollection2, IDisposable
     {
         void OnResume(InputAction.CallbackContext context);
         void OnMainMenu(InputAction.CallbackContext context);
+    }
+    public interface ICreditsActions
+    {
+        void OnRestart(InputAction.CallbackContext context);
+        void OnCancel(InputAction.CallbackContext context);
     }
 }

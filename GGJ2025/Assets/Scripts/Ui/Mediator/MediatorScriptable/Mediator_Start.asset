@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e686aba27eef18149a0f264c4ec31e7e, type: 3}
   m_Name: Mediator_Start
   m_EditorClassIdentifier: 
-  typeAnimation: 1
+  typeAnimation: 5
   isStartHidden: 0
   isInteractable: 1
   isBlocksRaycasts: 1
@@ -20,5 +20,5 @@ MonoBehaviour:
   posUiOut: {x: 0, y: 0}
   rotationUiIn: {x: 0, y: 0}
   rotationUiOut: {x: 0, y: 0}
-  animationTime: 0.5
+  animationTime: 0.75
   waitTime: 0.05
