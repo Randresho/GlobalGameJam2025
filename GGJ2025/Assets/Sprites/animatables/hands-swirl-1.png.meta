@@ -1,0 +1,1001 @@
+fileFormatVersion: 2
+guid: fc59806026831430392ec1fd086aa43c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4799411505065794645
+    second: hands-swirl-1_0
+  - first:
+      213: -3935802691629410363
+    second: hands-swirl-1_1
+  - first:
+      213: 8893739594141820558
+    second: hands-swirl-1_2
+  - first:
+      213: -2970584089797407176
+    second: hands-swirl-1_3
+  - first:
+      213: 2151379075872020296
+    second: hands-swirl-1_4
+  - first:
+      213: 6399311656611467735
+    second: hands-swirl-1_5
+  - first:
+      213: -3805316209286174666
+    second: hands-swirl-1_6
+  - first:
+      213: 5181551576515547050
+    second: hands-swirl-1_7
+  - first:
+      213: -4633094231074685318
+    second: hands-swirl-1_8
+  - first:
+      213: -3314994056346445723
+    second: hands-swirl-1_9
+  - first:
+      213: 7321234485224780207
+    second: hands-swirl-1_10
+  - first:
+      213: -5269210936048077764
+    second: hands-swirl-1_11
+  - first:
+      213: 369451743596586188
+    second: hands-swirl-1_12
+  - first:
+      213: -6878216017540044264
+    second: hands-swirl-1_13
+  - first:
+      213: -3983695720232535573
+    second: hands-swirl-1_14
+  - first:
+      213: 972476725124607405
+    second: hands-swirl-1_15
+  - first:
+      213: 5613827980266749295
+    second: hands-swirl-1_16
+  - first:
+      213: 2338316860945520412
+    second: hands-swirl-1_17
+  - first:
+      213: -6270558712331599719
+    second: hands-swirl-1_18
+  - first:
+      213: -8621517298776792608
+    second: hands-swirl-1_19
+  - first:
+      213: -5420214318215076012
+    second: hands-swirl-1_20
+  - first:
+      213: 1254320627238705699
+    second: hands-swirl-1_21
+  - first:
+      213: -1257817364895167393
+    second: hands-swirl-1_22
+  - first:
+      213: 7129141016072277655
+    second: hands-swirl-1_23
+  - first:
+      213: -8113510415799585918
+    second: hands-swirl-1_24
+  - first:
+      213: -5842491904086421205
+    second: hands-swirl-1_25
+  - first:
+      213: 5464443340620848111
+    second: hands-swirl-1_26
+  - first:
+      213: 4063595331537119381
+    second: hands-swirl-1_27
+  - first:
+      213: 8491446474158439847
+    second: hands-swirl-1_28
+  - first:
+      213: 4387087530736341025
+    second: hands-swirl-1_29
+  - first:
+      213: -5337732124854394995
+    second: hands-swirl-1_30
+  - first:
+      213: 3365633417422933681
+    second: hands-swirl-1_31
+  - first:
+      213: -5744476173660756141
+    second: hands-swirl-1_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.5135195, y: 0.5879543}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hands-swirl-1_0
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1555
+        width: 174
+        height: 362
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c9e52e55fea9240800000000000000
+      internalID: 4799411505065794645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_1
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1866
+        width: 188
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c717630e483169c0800000000000000
+      internalID: -3935802691629410363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_2
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1801
+        width: 132
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8666a13a09ec6b70800000000000000
+      internalID: 8893739594141820558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_3
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1851
+        width: 106
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ec238528d56c6d0800000000000000
+      internalID: -2970584089797407176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_4
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1648
+        width: 182
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8475f8afedb3bdd10800000000000000
+      internalID: 2151379075872020296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_5
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1671
+        width: 442
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1d753fb0ceec850800000000000000
+      internalID: 6399311656611467735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_6
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1630
+        width: 136
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638267fa11dc03bc0800000000000000
+      internalID: -3805316209286174666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_7
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1321
+        width: 226
+        height: 420
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf039fa4b198e740800000000000000
+      internalID: 5181551576515547050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_8
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1132
+        width: 448
+        height: 591
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7eb1e11851f3bfb0800000000000000
+      internalID: -4633094231074685318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_9
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1423
+        width: 367
+        height: 361
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56850f62876cef1d0800000000000000
+      internalID: -3314994056346445723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_10
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1128
+        width: 70
+        height: 339
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1b92989ff3a9560800000000000000
+      internalID: 7321234485224780207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_11
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1390
+        width: 108
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c343046329000e6b0800000000000000
+      internalID: -5269210936048077764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_12
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1247
+        width: 29
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc429b2476e802500800000000000000
+      internalID: 369451743596586188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_13
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1328
+        width: 125
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81aaf1279faab80a0800000000000000
+      internalID: -6878216017540044264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_14
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 885
+        width: 593
+        height: 698
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9bb4659d117b8c0800000000000000
+      internalID: -3983695720232535573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_15
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 886
+        width: 241
+        height: 530
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad2369dd6eee7d00800000000000000
+      internalID: 972476725124607405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_16
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 1055
+        width: 124
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6db2f10ec258ed40800000000000000
+      internalID: 5613827980266749295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_17
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1236
+        width: 58
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17d6fccbce537020800000000000000
+      internalID: 2338316860945520412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_18
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1212
+        width: 67
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9908e30f2108af8a0800000000000000
+      internalID: -6270558712331599719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_19
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1010
+        width: 67
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1268d02b73a5880800000000000000
+      internalID: -8621517298776792608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_20
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 859
+        width: 546
+        height: 298
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457ed4c8bc787c4b0800000000000000
+      internalID: -5420214318215076012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_21
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1127
+        width: 62
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a120df6fd386110800000000000000
+      internalID: 1254320627238705699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_22
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 1116
+        width: 93
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c0b1555c55b8ee0800000000000000
+      internalID: -1257817364895167393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_23
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 765
+        width: 651
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ec7a87bfbcfe260800000000000000
+      internalID: 7129141016072277655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_24
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 709
+        width: 207
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28375d89345076f80800000000000000
+      internalID: -8113510415799585918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_25
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 753
+        width: 200
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2155dd619c4beea0800000000000000
+      internalID: -5842491904086421205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_26
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 937
+        width: 73
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb54f4344a95db40800000000000000
+      internalID: 5464443340620848111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_27
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 756
+        width: 267
+        height: 327
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598a4379c6ac46830800000000000000
+      internalID: 4063595331537119381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_28
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 682
+        width: 182
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adf471249da7d570800000000000000
+      internalID: 8491446474158439847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_29
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 621
+        width: 464
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120d51c8dd012ec30800000000000000
+      internalID: 4387087530736341025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_30
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 718
+        width: 191
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8fdcd7b9e09ce5b0800000000000000
+      internalID: -5337732124854394995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_31
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 720
+        width: 356
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be8da1e2c125be20800000000000000
+      internalID: 3365633417422933681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hands-swirl-1_32
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 506
+        width: 549
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35761480b558740b0800000000000000
+      internalID: -5744476173660756141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hands-swirl-1_0: 4799411505065794645
+      hands-swirl-1_1: -3935802691629410363
+      hands-swirl-1_10: 7321234485224780207
+      hands-swirl-1_11: -5269210936048077764
+      hands-swirl-1_12: 369451743596586188
+      hands-swirl-1_13: -6878216017540044264
+      hands-swirl-1_14: -3983695720232535573
+      hands-swirl-1_15: 972476725124607405
+      hands-swirl-1_16: 5613827980266749295
+      hands-swirl-1_17: 2338316860945520412
+      hands-swirl-1_18: -6270558712331599719
+      hands-swirl-1_19: -8621517298776792608
+      hands-swirl-1_2: 8893739594141820558
+      hands-swirl-1_20: -5420214318215076012
+      hands-swirl-1_21: 1254320627238705699
+      hands-swirl-1_22: -1257817364895167393
+      hands-swirl-1_23: 7129141016072277655
+      hands-swirl-1_24: -8113510415799585918
+      hands-swirl-1_25: -5842491904086421205
+      hands-swirl-1_26: 5464443340620848111
+      hands-swirl-1_27: 4063595331537119381
+      hands-swirl-1_28: 8491446474158439847
+      hands-swirl-1_29: 4387087530736341025
+      hands-swirl-1_3: -2970584089797407176
+      hands-swirl-1_30: -5337732124854394995
+      hands-swirl-1_31: 3365633417422933681
+      hands-swirl-1_32: -5744476173660756141
+      hands-swirl-1_4: 2151379075872020296
+      hands-swirl-1_5: 6399311656611467735
+      hands-swirl-1_6: -3805316209286174666
+      hands-swirl-1_7: 5181551576515547050
+      hands-swirl-1_8: -4633094231074685318
+      hands-swirl-1_9: -3314994056346445723
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
