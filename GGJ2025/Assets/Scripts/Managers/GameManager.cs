@@ -6,6 +6,7 @@ using UnityEngine.Events;
 using System.Collections;
 using System.Collections.Generic;
 using MEC;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -109,5 +110,10 @@ public class GameManager : MonoBehaviour
     {
         yield return Timing.WaitForSeconds(0.75f);
         SceneManager.LoadScene(SceneName);  
+    }
+
+    public void SetPrincipalButton(Button button)
+    {
+        button.Select();
     }
 }
