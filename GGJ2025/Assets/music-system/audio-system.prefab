@@ -2649,9 +2649,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6634726496927791217}
     m_Modifications:
+    - target: {fileID: 263716883433714058, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: m_SortingOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 607486645350642768, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 659615675906387129, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
       propertyPath: m_Name
       value: 'VFX '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819013287969177931, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: m_SortingOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930637824168757434, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 3060326545060026319, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2692,6 +2708,22 @@ PrefabInstance:
     - target: {fileID: 3060326545060026319, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3941928827294468673, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: m_SortingOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5590492036524154328, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: m_SortingOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7433741599230385720, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7711519961301077211, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2755,9 +2787,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2965696577956061068}
     m_Modifications:
+    - target: {fileID: 263716883433714058, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: m_SortingOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 607486645350642768, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 659615675906387129, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
       propertyPath: m_Name
       value: VFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819013287969177931, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: m_SortingOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930637824168757434, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 3060326545060026319, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2798,6 +2846,22 @@ PrefabInstance:
     - target: {fileID: 3060326545060026319, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3941928827294468673, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: m_SortingOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5590492036524154328, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: m_SortingOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7433741599230385720, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7711519961301077211, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2861,9 +2925,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 469529059599210157}
     m_Modifications:
+    - target: {fileID: 263716883433714058, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: m_SortingOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 607486645350642768, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 659615675906387129, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
       propertyPath: m_Name
       value: VFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819013287969177931, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: m_SortingOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930637824168757434, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 3060326545060026319, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2904,6 +2984,22 @@ PrefabInstance:
     - target: {fileID: 3060326545060026319, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3941928827294468673, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: m_SortingOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5590492036524154328, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: m_SortingOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7433741599230385720, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7711519961301077211, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2967,9 +3063,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1781741393463627780}
     m_Modifications:
+    - target: {fileID: 263716883433714058, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: m_SortingOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 607486645350642768, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 659615675906387129, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
       propertyPath: m_Name
       value: 'VFX '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1819013287969177931, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: m_SortingOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1930637824168757434, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 3060326545060026319, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3010,6 +3122,22 @@ PrefabInstance:
     - target: {fileID: 3060326545060026319, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3941928827294468673, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: m_SortingOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5590492036524154328, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: m_SortingOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7433741599230385720, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7711519961301077211, guid: b8cd1f63bd75f4741b3aebe3ab7a64ed, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
