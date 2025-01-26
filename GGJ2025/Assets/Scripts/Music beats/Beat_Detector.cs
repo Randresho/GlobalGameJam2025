@@ -36,7 +36,10 @@ public class Beat_Detector : MonoBehaviour
     private float randomThreshold;
 
     private float lastBeatTime = -1f; // Last time a beat was triggered
-    private float minTimeBetweenBeats; // Minimum time interval between beats (retrieved from AudioSpectrumDetector)
+
+    [SerializeField]
+    private float bPM = 200; // Minimum time interval between beats (retrieved from AudioSpectrumDetector)
+    private float minTimeBetweenBeats;
 
     private void Awake()
     {
@@ -45,7 +48,7 @@ public class Beat_Detector : MonoBehaviour
 
     private void Start()
     {
-        minTimeBetweenBeats = AudioSpectrumDetector.Instance.minTimeBetweenBeats; // Retrieve from AudioSpectrumDetector
+        minTimeBetweenBeats = 1 / (bPM / 60);
     }
 
     private void Update()

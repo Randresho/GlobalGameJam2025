@@ -6,6 +6,7 @@ public class TrashBehaviours : MonoBehaviour
     void Start()
     {
         InputManager.Instance.SetInputType("player");
+        AudioManager.Instance.Play();
     }
 
     public void Deb(string message)
