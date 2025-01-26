@@ -59,8 +59,11 @@ public class EnviromentEventsWithTime : MonoBehaviour
 
         public void StartGame()
         {
-            if(timer <= GameManager.instance.totalSongTimer)
+            if (timer < GameManager.instance.totalSongTimer)
                 Timing.RunCoroutine(TimerActive(), "Timer");
+
+            if (timer >= GameManager.instance.totalSongTimer)
+                Debug.LogError("Error: event " + eventName + " out of time song");
         }
 
         public void Pause()

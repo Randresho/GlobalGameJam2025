@@ -1,6 +1,12 @@
 using System;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Events;
+using System.Collections;
+using System.Collections.Generic;
+using MEC;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -17,6 +23,12 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private bool startGame;
 
+    [SerializeField]
+    private AudioClip audioSong;
+
+    [SerializeField]
+    private TextMeshProUGUI scorePoints;
+
     [field: SerializeField]
     public int Score { get; private set; }
 
@@ -30,12 +42,14 @@ public class GameManager : MonoBehaviour
         {
             Debug.LogError("There one or more instance in the scene");
         }
+
+        totalSongTimer = audioSong.length;
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        // InputManager.Instance.SetInputType("ui");
+        InputManager.Instance.SetInputType("ui");
         startGame = false;
     }
 
@@ -55,6 +69,8 @@ public class GameManager : MonoBehaviour
                 curSongTimer += Time.deltaTime;
             }
         }
+
+        scorePoints.text = Score + "";
     }
 
     public bool IsSongOver()
@@ -70,6 +86,7 @@ public class GameManager : MonoBehaviour
     public void StartTheGame()
     {
         curSongTimer = 0f;
+        Score = 0;
         isSongOver = false;
         ChangeGameStatus(true);
     }
@@ -82,5 +99,21 @@ public class GameManager : MonoBehaviour
     public void UpdateScore(int modifier)
     {
         Score += modifier;
+    }
+
+    public void ResetGame(string SceneName)
+    {
+        Timing.RunCoroutine(ResetScene(SceneName));
+    }
+
+    private IEnumerator<float> ResetScene(string SceneName)
+    {
+        yield return Timing.WaitForSeconds(0.75f);
+        SceneManager.LoadScene(SceneName);  
+    }
+
+    public void SetPrincipalButton(Button button)
+    {
+        button.Select();
     }
 }

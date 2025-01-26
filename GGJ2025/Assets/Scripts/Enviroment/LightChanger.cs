@@ -33,14 +33,17 @@ public class LightChanger : MonoBehaviour
 
     private void Transition()
     {
-        time += Time.deltaTime / changeColorDuration;
-        m_light.color = Color.Lerp(colorsToChange[curColor], colorsToChange[targetColor], time);
-
-        if(time >= changeColorDuration)
+        if(GameManager.instance.StartGame() && !GameManager.instance.IsSongOver())
         {
-            time = 0f;
-            curColor = targetColor;
-            targetColor = (targetColor + 1) % colorsToChange.Length;
+            time += Time.deltaTime / changeColorDuration;
+            m_light.color = Color.Lerp(colorsToChange[curColor], colorsToChange[targetColor], time);
+
+            if(time >= changeColorDuration)
+            {
+                time = 0f;
+                curColor = targetColor;
+                targetColor = (targetColor + 1) % colorsToChange.Length;
+            }
         }
     }
 }

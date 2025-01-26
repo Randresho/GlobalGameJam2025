@@ -21,8 +21,8 @@ public class MoveEnviromentNoLevelManager : MonoBehaviour
         float speed = GameManager.instance.totalSongTimer / (sprite + camera) ;
 
         //float temp =  sprite / GameManager.instance.totalSongTimer;
-        moveSpeed = speed / 2;
-        Debug.Log(speed + " / " + spriteRenderer.sprite.bounds.size.y);
+        moveSpeed = speed * moveMargin;
+        Debug.Log("Speed: " + moveSpeed);
     }
 
     void Update()

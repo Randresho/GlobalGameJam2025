@@ -20,5 +20,5 @@ MonoBehaviour:
   posUiOut: {x: 0, y: 0}
   rotationUiIn: {x: 0, y: 0}
   rotationUiOut: {x: 0, y: 0}
-  animationTime: 0.5
+  animationTime: 0.75
   waitTime: 0.05
