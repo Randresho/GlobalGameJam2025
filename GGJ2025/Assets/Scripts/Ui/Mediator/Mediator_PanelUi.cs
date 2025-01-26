@@ -13,7 +13,7 @@ public class Mediator_PanelUi : Mediator
         if (!Scritable.isStartHidden)
             ShowUi();
         else
-            HideUi();
+            StartHide();
     }
 
     public override void ShowUi()
@@ -44,5 +44,13 @@ public class Mediator_PanelUi : Mediator
 
         if (HasAnimationsType(TypeAnimation.Rotation))
             Timing.RunCoroutine(RotationOut());
+    }
+
+    public override void StartHide()
+    {
+        Timing.RunCoroutine(StartFade());
+        Timing.RunCoroutine(StartMove());
+        Timing.RunCoroutine(StartScale());
+        Timing.RunCoroutine(StartRotation());
     }
 }

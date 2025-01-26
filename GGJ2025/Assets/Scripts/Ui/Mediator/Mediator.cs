@@ -44,6 +44,8 @@ public abstract class Mediator : MonoBehaviour
 
     public abstract void HideUi();
 
+    public abstract void StartHide();
+
     #region Animations
     #region Fade
     //Animation In
@@ -63,6 +65,16 @@ public abstract class Mediator : MonoBehaviour
         yield return Timing.WaitForSeconds(_Scritable.waitTime);
 
         canvasGroup.DOFade(0f, _Scritable.animationTime);
+
+        canvasGroup.interactable = false;
+        canvasGroup.blocksRaycasts = false;
+    }
+
+    public IEnumerator<float> StartFade()
+    {
+        yield return Timing.WaitForSeconds(0);
+
+        canvasGroup.DOFade(0f, 0);
 
         canvasGroup.interactable = false;
         canvasGroup.blocksRaycasts = false;
@@ -92,6 +104,19 @@ public abstract class Mediator : MonoBehaviour
             rectTransform.transform.localPosition = startPosUi;
             rectTransform.DOAnchorPos(_Scritable.posUiOut, _Scritable.animationTime, false).SetEase(Ease.OutElastic);
             yield return Timing.WaitForSeconds(_Scritable.waitTime);
+        }
+
+        canvasGroup.interactable = false;
+        canvasGroup.blocksRaycasts = false;
+    }
+
+    public IEnumerator<float> StartMove()
+    {
+        foreach (GameObject item in items)
+        {
+            rectTransform.transform.localPosition = startPosUi;
+            rectTransform.DOAnchorPos(_Scritable.posUiOut, 0, false).SetEase(Ease.OutElastic);
+            yield return Timing.WaitForSeconds(0);
         }
 
         canvasGroup.interactable = false;
@@ -127,6 +152,19 @@ public abstract class Mediator : MonoBehaviour
         canvasGroup.interactable = false;
         canvasGroup.blocksRaycasts = false;
     }
+
+    public IEnumerator<float> StartScale()
+    {
+        foreach (GameObject item in items)
+        {
+            item.transform.localScale = Vector3.zero;
+            item.transform.DOScale(0f, 0).SetEase(Ease.OutBounce);
+            yield return Timing.WaitForSeconds(0);
+        }
+
+        canvasGroup.interactable = false;
+        canvasGroup.blocksRaycasts = false;
+    }
     #endregion
 
     #region Rotation
@@ -152,6 +190,19 @@ public abstract class Mediator : MonoBehaviour
             item.transform.localRotation = Quaternion.identity;
             item.transform.DORotate(new Vector3(_Scritable.rotationUiOut.x, 0f, _Scritable.rotationUiOut.y), _Scritable.animationTime).SetEase(Ease.OutBounce);
             yield return Timing.WaitForSeconds(_Scritable.waitTime);
+        }
+
+        canvasGroup.interactable = false;
+        canvasGroup.blocksRaycasts = false;
+    }
+
+    public IEnumerator<float> StartRotation()
+    {
+        foreach (GameObject item in items)
+        {
+            item.transform.localRotation = Quaternion.identity;
+            item.transform.DORotate(new Vector3(_Scritable.rotationUiOut.x, 0f, _Scritable.rotationUiOut.y), 0).SetEase(Ease.OutBounce);
+            yield return Timing.WaitForSeconds(0);
         }
 
         canvasGroup.interactable = false;
