@@ -5,11 +5,29 @@ using UnityEngine;
 public class MoveEnviromentNoLevelManager : MonoBehaviour
 {
     [Header("Speed Movemnt")]
-    public float moveSpeed = 7f;
+    private float moveSpeed = 7f;
+    [SerializeField] private float moveMargin = 10f;
 
-    void FixedUpdate()
+    [SerializeField] private SpriteRenderer spriteRenderer = null;
+    [SerializeField] private Camera cameraHeight;
+
+    private void Start()
+    {
+        //float temp = GameManager.instance.totalSongTimer / spriteRenderer.sprite.bounds.size.y;
+
+        float sprite = spriteRenderer.sprite.bounds.size.y;
+        float camera = cameraHeight.orthographicSize * 2f;
+
+        float speed = GameManager.instance.totalSongTimer / (sprite + camera) ;
+
+        //float temp =  sprite / GameManager.instance.totalSongTimer;
+        moveSpeed = speed / 2;
+        Debug.Log(speed + " / " + spriteRenderer.sprite.bounds.size.y);
+    }
+
+    void Update()
     {
         if(!GameManager.instance.IsSongOver() && GameManager.instance.StartGame())
-            transform.Translate(0f, Time.fixedDeltaTime * moveSpeed, 0f);
+            transform.Translate(0f, Time.deltaTime * -moveSpeed, 0f);
     }
 }
