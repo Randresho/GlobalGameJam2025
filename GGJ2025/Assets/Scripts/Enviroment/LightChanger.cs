@@ -1,17 +1,24 @@
-using MEC;
 using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
+using MEC;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
 [RequireComponent(typeof(Light2D))]
 public class LightChanger : MonoBehaviour
 {
-    [SerializeField] private Color[] colorsToChange;
+    [SerializeField]
+    private Color[] colorsToChange;
+
     [Space]
-    [SerializeField] private float changeColorDuration = 1f;
+    [SerializeField]
+    private float changeColorDuration = 1f;
+
+    [SerializeField]
     private float time;
+
+    [SerializeField]
     private int curColor;
     private int targetColor;
     private Light2D m_light;
@@ -22,9 +29,7 @@ public class LightChanger : MonoBehaviour
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-    }
+    void Start() { }
 
     private void Update()
     {
@@ -33,12 +38,12 @@ public class LightChanger : MonoBehaviour
 
     private void Transition()
     {
-        if(GameManager.instance.StartGame() && !GameManager.instance.IsSongOver())
+        if (GameManager.instance.StartGame() && !GameManager.instance.IsSongOver())
         {
-            time += Time.deltaTime / changeColorDuration;
+            time += Time.deltaTime;
             m_light.color = Color.Lerp(colorsToChange[curColor], colorsToChange[targetColor], time);
 
-            if(time >= changeColorDuration)
+            if (time >= changeColorDuration)
             {
                 time = 0f;
                 curColor = targetColor;
