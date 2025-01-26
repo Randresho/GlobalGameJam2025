@@ -65,6 +65,17 @@
                 },
                 {
                     "name": "",
+                    "id": "81e06ff5-71f3-4e1b-bba2-44a78ef938b6",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Gamepad",
+                    "action": "left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "1dcb5225-f479-4591-aa8c-e783c3a5e5c1",
                     "path": "<Keyboard>/leftArrow",
                     "interactions": "",
@@ -78,6 +89,17 @@
                     "name": "",
                     "id": "daba33a1-ad0c-4742-a909-43ad1cdfbeb6",
                     "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dbce04c5-ed51-4c7e-9ea7-a99e93f0ef31",
+                    "path": "<Gamepad>/dpad/down",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
@@ -109,6 +131,17 @@
                 },
                 {
                     "name": "",
+                    "id": "7ea29fee-706b-41ab-8a01-d24fdff4672a",
+                    "path": "<Gamepad>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "9144fdb1-b782-43e7-8619-405ca7569fa2",
                     "path": "<Keyboard>/upArrow",
                     "interactions": "",
@@ -122,6 +155,17 @@
                     "name": "",
                     "id": "4f4649ac-64a8-4a73-af11-b3faef356a4d",
                     "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0ce75881-1045-4b17-8d0b-d7737bd2f275",
+                    "path": "<Gamepad>/dpad/right",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
