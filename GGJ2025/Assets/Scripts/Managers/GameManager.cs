@@ -17,6 +17,9 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private bool startGame;
 
+    [SerializeField]
+    private AudioClip audioSong;
+
     [field: SerializeField]
     public int Score { get; private set; }
 
@@ -30,12 +33,14 @@ public class GameManager : MonoBehaviour
         {
             Debug.LogError("There one or more instance in the scene");
         }
+
+        totalSongTimer = audioSong.length;
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        // InputManager.Instance.SetInputType("ui");
+        InputManager.Instance.SetInputType("ui");
         startGame = false;
     }
 

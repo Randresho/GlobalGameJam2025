@@ -117,7 +117,8 @@ public class BeatBase : MonoBehaviour
 
     protected virtual void Move()
     {
-        transform.Translate(Vector3.up * -1 * travelSpeed * Time.deltaTime);
+        if(GameManager.instance.StartGame())
+            transform.Translate(Vector3.up * -1 * travelSpeed * Time.deltaTime);
     }
 
     protected virtual void OnZoneChange(string tag)

@@ -49,6 +49,8 @@ public class BeatGenerator : Beat_Detector
 
     private UnityEvent OnButtonPressed = new();
 
+    [SerializeField] private Transform parent;
+
     private void OnEnable()
     {
         OnBeat += OnBeatDetected;
@@ -101,7 +103,7 @@ public class BeatGenerator : Beat_Detector
         if (beatPrefab == null)
             return;
 
-        var beat = Instantiate(beatPrefab, transform.position, quaternion.identity);
+        var beat = Instantiate(beatPrefab, transform.position, quaternion.identity, parent);
 
         beat.Initialize(beatTravelSpeed, OnButtonPressed);
         beat.SetScoreSettings(beatScore, earlyPenalty, latePenalty);
