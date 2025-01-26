@@ -12,6 +12,9 @@ public class AudioManager : MonoBehaviour
     private AudioSource playerAudio;
 
     [SerializeField]
+    private AudioSource baseAudio;
+
+    [SerializeField]
     private float userDelay = 5;
 
     private void Awake()
@@ -28,29 +31,34 @@ public class AudioManager : MonoBehaviour
 
     public void Play()
     {
-        playerAudio.time = userDelay;
+        generatorAudio.time = userDelay;
         generatorAudio.Play();
         playerAudio.Play();
+        baseAudio.Play();
     }
 
     public void Pause()
     {
         generatorAudio.Pause();
         playerAudio.Pause();
+        baseAudio.Pause();
     }
 
     public void Resume()
     {
-        generatorAudio.Play();
-        playerAudio.time = generatorAudio.time + userDelay;
         playerAudio.Play();
+        baseAudio.Play();
+        generatorAudio.time = playerAudio.time + userDelay;
+        generatorAudio.Play();
     }
 
     public void Reset()
     {
         generatorAudio.Stop();
+        generatorAudio.time = userDelay;
         playerAudio.Stop();
-        generatorAudio.time = 0;
-        playerAudio.time = userDelay;
+        playerAudio.time = 0;
+        baseAudio.Stop();
+        baseAudio.time = 0;
     }
 }

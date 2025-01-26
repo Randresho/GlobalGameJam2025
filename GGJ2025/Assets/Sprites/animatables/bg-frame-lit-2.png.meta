@@ -1,0 +1,6045 @@
+fileFormatVersion: 2
+guid: 250964a39df57425a924d56e25a8bd5c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4557092967422488281
+    second: bg-frame-lit-2_0
+  - first:
+      213: 6251218314362961482
+    second: bg-frame-lit-2_1
+  - first:
+      213: -7785166614372759068
+    second: bg-frame-lit-2_2
+  - first:
+      213: -5061177721085008975
+    second: bg-frame-lit-2_3
+  - first:
+      213: 4757080142934733415
+    second: bg-frame-lit-2_4
+  - first:
+      213: -963611348623362873
+    second: bg-frame-lit-2_5
+  - first:
+      213: 3775880035506109926
+    second: bg-frame-lit-2_6
+  - first:
+      213: 7349372030573600910
+    second: bg-frame-lit-2_7
+  - first:
+      213: -898642446553682378
+    second: bg-frame-lit-2_8
+  - first:
+      213: -3406924765289148135
+    second: bg-frame-lit-2_9
+  - first:
+      213: -61598384232715921
+    second: bg-frame-lit-2_10
+  - first:
+      213: -7286778416133304853
+    second: bg-frame-lit-2_11
+  - first:
+      213: 4511593428710721519
+    second: bg-frame-lit-2_12
+  - first:
+      213: 325054510949758256
+    second: bg-frame-lit-2_13
+  - first:
+      213: 6338729605786341695
+    second: bg-frame-lit-2_14
+  - first:
+      213: 5233103617598720384
+    second: bg-frame-lit-2_15
+  - first:
+      213: -222804924455121179
+    second: bg-frame-lit-2_16
+  - first:
+      213: -6993699993987582377
+    second: bg-frame-lit-2_17
+  - first:
+      213: 3607887442350726549
+    second: bg-frame-lit-2_18
+  - first:
+      213: 120678170960181057
+    second: bg-frame-lit-2_19
+  - first:
+      213: 1988207412895769455
+    second: bg-frame-lit-2_20
+  - first:
+      213: -5344715912525130534
+    second: bg-frame-lit-2_21
+  - first:
+      213: -1045947791620279860
+    second: bg-frame-lit-2_22
+  - first:
+      213: 8442195845296716770
+    second: bg-frame-lit-2_23
+  - first:
+      213: -5078911205883202401
+    second: bg-frame-lit-2_24
+  - first:
+      213: -1156344047000479520
+    second: bg-frame-lit-2_25
+  - first:
+      213: 6813888255189309903
+    second: bg-frame-lit-2_26
+  - first:
+      213: 5893042077044490527
+    second: bg-frame-lit-2_27
+  - first:
+      213: 5015560979219546207
+    second: bg-frame-lit-2_28
+  - first:
+      213: -4054278125859767675
+    second: bg-frame-lit-2_29
+  - first:
+      213: 9105875195356109918
+    second: bg-frame-lit-2_30
+  - first:
+      213: 4270330848360428525
+    second: bg-frame-lit-2_31
+  - first:
+      213: 1305705961604065649
+    second: bg-frame-lit-2_32
+  - first:
+      213: -644486079026809589
+    second: bg-frame-lit-2_33
+  - first:
+      213: 579251641550231479
+    second: bg-frame-lit-2_34
+  - first:
+      213: 3256845750051825757
+    second: bg-frame-lit-2_35
+  - first:
+      213: -9147929950302993343
+    second: bg-frame-lit-2_36
+  - first:
+      213: -8800882028990730100
+    second: bg-frame-lit-2_37
+  - first:
+      213: -4091728446905078817
+    second: bg-frame-lit-2_38
+  - first:
+      213: 2580184975503669279
+    second: bg-frame-lit-2_39
+  - first:
+      213: -2024834517494433882
+    second: bg-frame-lit-2_40
+  - first:
+      213: 534550843305049288
+    second: bg-frame-lit-2_41
+  - first:
+      213: 6598502299416557035
+    second: bg-frame-lit-2_42
+  - first:
+      213: -4119694900327159465
+    second: bg-frame-lit-2_43
+  - first:
+      213: 4838218927037460404
+    second: bg-frame-lit-2_44
+  - first:
+      213: -5424896671173060104
+    second: bg-frame-lit-2_45
+  - first:
+      213: -3015098542092864495
+    second: bg-frame-lit-2_46
+  - first:
+      213: -4626955016145663935
+    second: bg-frame-lit-2_47
+  - first:
+      213: 9032894468151541795
+    second: bg-frame-lit-2_48
+  - first:
+      213: 1516724311545528156
+    second: bg-frame-lit-2_49
+  - first:
+      213: -7152972631948579376
+    second: bg-frame-lit-2_50
+  - first:
+      213: 3212429898369954790
+    second: bg-frame-lit-2_51
+  - first:
+      213: 1298623900367710552
+    second: bg-frame-lit-2_52
+  - first:
+      213: 3556544814277332873
+    second: bg-frame-lit-2_53
+  - first:
+      213: 8523993921445143768
+    second: bg-frame-lit-2_54
+  - first:
+      213: -5932525995774222668
+    second: bg-frame-lit-2_55
+  - first:
+      213: 6302228981529862344
+    second: bg-frame-lit-2_56
+  - first:
+      213: 3859418081609784040
+    second: bg-frame-lit-2_57
+  - first:
+      213: 4536547113091228791
+    second: bg-frame-lit-2_58
+  - first:
+      213: -3397731993341888853
+    second: bg-frame-lit-2_59
+  - first:
+      213: 7921607377060175249
+    second: bg-frame-lit-2_60
+  - first:
+      213: -4742684736853890146
+    second: bg-frame-lit-2_61
+  - first:
+      213: 8122735693815436287
+    second: bg-frame-lit-2_62
+  - first:
+      213: 4460080428296693577
+    second: bg-frame-lit-2_63
+  - first:
+      213: 2038671019065403866
+    second: bg-frame-lit-2_64
+  - first:
+      213: 7723719058329020899
+    second: bg-frame-lit-2_65
+  - first:
+      213: 7271720254144792053
+    second: bg-frame-lit-2_66
+  - first:
+      213: 3224620409711326097
+    second: bg-frame-lit-2_67
+  - first:
+      213: 3619217759751991103
+    second: bg-frame-lit-2_68
+  - first:
+      213: -8086773504313857847
+    second: bg-frame-lit-2_69
+  - first:
+      213: -2360352776944418751
+    second: bg-frame-lit-2_70
+  - first:
+      213: -1684562081011832673
+    second: bg-frame-lit-2_71
+  - first:
+      213: 656904562226320228
+    second: bg-frame-lit-2_72
+  - first:
+      213: -8550705050215322580
+    second: bg-frame-lit-2_73
+  - first:
+      213: 2904144403673845696
+    second: bg-frame-lit-2_74
+  - first:
+      213: -2850027155915182903
+    second: bg-frame-lit-2_75
+  - first:
+      213: 5125163539472390346
+    second: bg-frame-lit-2_76
+  - first:
+      213: 3192911055344834108
+    second: bg-frame-lit-2_77
+  - first:
+      213: 1712437378203764811
+    second: bg-frame-lit-2_78
+  - first:
+      213: -535206627311683067
+    second: bg-frame-lit-2_79
+  - first:
+      213: -2254816945474604692
+    second: bg-frame-lit-2_80
+  - first:
+      213: -1174878314764263504
+    second: bg-frame-lit-2_81
+  - first:
+      213: -2177774561011907396
+    second: bg-frame-lit-2_82
+  - first:
+      213: -1642790155180072026
+    second: bg-frame-lit-2_83
+  - first:
+      213: -116502506203610260
+    second: bg-frame-lit-2_84
+  - first:
+      213: 4547431114078677755
+    second: bg-frame-lit-2_85
+  - first:
+      213: -1187230983522985431
+    second: bg-frame-lit-2_86
+  - first:
+      213: 433999996136656221
+    second: bg-frame-lit-2_87
+  - first:
+      213: -6174472079260015124
+    second: bg-frame-lit-2_88
+  - first:
+      213: -1744742720483850154
+    second: bg-frame-lit-2_89
+  - first:
+      213: -9001535668302173602
+    second: bg-frame-lit-2_90
+  - first:
+      213: 4087250427097469180
+    second: bg-frame-lit-2_91
+  - first:
+      213: 711703748374556292
+    second: bg-frame-lit-2_92
+  - first:
+      213: 3041400256401550441
+    second: bg-frame-lit-2_93
+  - first:
+      213: -6226910843927223679
+    second: bg-frame-lit-2_94
+  - first:
+      213: -7995907286077068082
+    second: bg-frame-lit-2_95
+  - first:
+      213: 6367082278934183146
+    second: bg-frame-lit-2_96
+  - first:
+      213: 3352808697024376125
+    second: bg-frame-lit-2_97
+  - first:
+      213: -8945495990896419083
+    second: bg-frame-lit-2_98
+  - first:
+      213: -7254804889409720021
+    second: bg-frame-lit-2_99
+  - first:
+      213: 5316898416867463632
+    second: bg-frame-lit-2_100
+  - first:
+      213: -3149115346225273648
+    second: bg-frame-lit-2_101
+  - first:
+      213: -6002954940904895745
+    second: bg-frame-lit-2_102
+  - first:
+      213: 3942501951573649837
+    second: bg-frame-lit-2_103
+  - first:
+      213: -5619542994373222548
+    second: bg-frame-lit-2_104
+  - first:
+      213: -2324243502706110414
+    second: bg-frame-lit-2_105
+  - first:
+      213: 2861705348579497020
+    second: bg-frame-lit-2_106
+  - first:
+      213: 5938205317153153127
+    second: bg-frame-lit-2_107
+  - first:
+      213: 6403059753616973066
+    second: bg-frame-lit-2_108
+  - first:
+      213: 6132048177964527756
+    second: bg-frame-lit-2_109
+  - first:
+      213: -6965523747436486001
+    second: bg-frame-lit-2_110
+  - first:
+      213: 787982873187171663
+    second: bg-frame-lit-2_111
+  - first:
+      213: -2907570784285481517
+    second: bg-frame-lit-2_112
+  - first:
+      213: 2295642712485619692
+    second: bg-frame-lit-2_113
+  - first:
+      213: 8173140077334690528
+    second: bg-frame-lit-2_114
+  - first:
+      213: 5034944039061356579
+    second: bg-frame-lit-2_115
+  - first:
+      213: -6506758888777597728
+    second: bg-frame-lit-2_116
+  - first:
+      213: 2396752499475370620
+    second: bg-frame-lit-2_117
+  - first:
+      213: -2050505210703292142
+    second: bg-frame-lit-2_118
+  - first:
+      213: -2500421558643356441
+    second: bg-frame-lit-2_119
+  - first:
+      213: 3051946879384113400
+    second: bg-frame-lit-2_120
+  - first:
+      213: 1697188616897192510
+    second: bg-frame-lit-2_121
+  - first:
+      213: 8633766129151690572
+    second: bg-frame-lit-2_122
+  - first:
+      213: -720326494464320477
+    second: bg-frame-lit-2_123
+  - first:
+      213: 594379485815858742
+    second: bg-frame-lit-2_124
+  - first:
+      213: -4156972347479309756
+    second: bg-frame-lit-2_125
+  - first:
+      213: 709510154230486556
+    second: bg-frame-lit-2_126
+  - first:
+      213: -4589727977399492313
+    second: bg-frame-lit-2_127
+  - first:
+      213: 2078973508965174967
+    second: bg-frame-lit-2_128
+  - first:
+      213: -208219152744463474
+    second: bg-frame-lit-2_129
+  - first:
+      213: 924932407615926453
+    second: bg-frame-lit-2_130
+  - first:
+      213: -4255466714172634601
+    second: bg-frame-lit-2_131
+  - first:
+      213: 20108020230067237
+    second: bg-frame-lit-2_132
+  - first:
+      213: -2159438725054663177
+    second: bg-frame-lit-2_133
+  - first:
+      213: 1981419332972628749
+    second: bg-frame-lit-2_134
+  - first:
+      213: -3195023147660500611
+    second: bg-frame-lit-2_135
+  - first:
+      213: 5559949624002146885
+    second: bg-frame-lit-2_136
+  - first:
+      213: 1077065935735526
+    second: bg-frame-lit-2_137
+  - first:
+      213: 6611168216710734154
+    second: bg-frame-lit-2_138
+  - first:
+      213: 5710145518860693927
+    second: bg-frame-lit-2_139
+  - first:
+      213: -9209981968184017771
+    second: bg-frame-lit-2_140
+  - first:
+      213: 1576735226585691613
+    second: bg-frame-lit-2_141
+  - first:
+      213: 5031867055495670872
+    second: bg-frame-lit-2_142
+  - first:
+      213: -4997477899212712154
+    second: bg-frame-lit-2_143
+  - first:
+      213: 557070463390738734
+    second: bg-frame-lit-2_144
+  - first:
+      213: -1926709770365754713
+    second: bg-frame-lit-2_145
+  - first:
+      213: -1765646379439781615
+    second: bg-frame-lit-2_146
+  - first:
+      213: -286765082047511850
+    second: bg-frame-lit-2_147
+  - first:
+      213: 3873781750913659248
+    second: bg-frame-lit-2_148
+  - first:
+      213: 2546142951186213930
+    second: bg-frame-lit-2_149
+  - first:
+      213: -6035028601000322432
+    second: bg-frame-lit-2_150
+  - first:
+      213: -118535373869851164
+    second: bg-frame-lit-2_151
+  - first:
+      213: -4902129427321646645
+    second: bg-frame-lit-2_152
+  - first:
+      213: -5639374913106698298
+    second: bg-frame-lit-2_153
+  - first:
+      213: -2061642968113512785
+    second: bg-frame-lit-2_154
+  - first:
+      213: -3171000623958036432
+    second: bg-frame-lit-2_155
+  - first:
+      213: -6358298127761354960
+    second: bg-frame-lit-2_156
+  - first:
+      213: -5951218553249947147
+    second: bg-frame-lit-2_157
+  - first:
+      213: 8354852333750804028
+    second: bg-frame-lit-2_158
+  - first:
+      213: -837439411871742788
+    second: bg-frame-lit-2_159
+  - first:
+      213: 1701756201400502461
+    second: bg-frame-lit-2_160
+  - first:
+      213: -3988264865971745779
+    second: bg-frame-lit-2_161
+  - first:
+      213: -4144186371836420984
+    second: bg-frame-lit-2_162
+  - first:
+      213: -8591279475807163996
+    second: bg-frame-lit-2_163
+  - first:
+      213: -7662623575909030261
+    second: bg-frame-lit-2_164
+  - first:
+      213: 7857960221304864815
+    second: bg-frame-lit-2_165
+  - first:
+      213: 3537373547396936134
+    second: bg-frame-lit-2_166
+  - first:
+      213: 5304881519620858126
+    second: bg-frame-lit-2_167
+  - first:
+      213: -5327608012461631348
+    second: bg-frame-lit-2_168
+  - first:
+      213: 4414215500949808528
+    second: bg-frame-lit-2_169
+  - first:
+      213: 3202314328164460145
+    second: bg-frame-lit-2_170
+  - first:
+      213: -4710605389824771218
+    second: bg-frame-lit-2_171
+  - first:
+      213: 3748397142739604468
+    second: bg-frame-lit-2_172
+  - first:
+      213: 1815800007307472170
+    second: bg-frame-lit-2_173
+  - first:
+      213: -1613978147294754758
+    second: bg-frame-lit-2_174
+  - first:
+      213: 2682085547772440899
+    second: bg-frame-lit-2_175
+  - first:
+      213: -771648798919884202
+    second: bg-frame-lit-2_176
+  - first:
+      213: -5785266485515266098
+    second: bg-frame-lit-2_177
+  - first:
+      213: -2697709216851683912
+    second: bg-frame-lit-2_178
+  - first:
+      213: 636348050820396361
+    second: bg-frame-lit-2_179
+  - first:
+      213: 4265587804459996453
+    second: bg-frame-lit-2_180
+  - first:
+      213: 3381561418303655550
+    second: bg-frame-lit-2_181
+  - first:
+      213: -1489643677720740903
+    second: bg-frame-lit-2_182
+  - first:
+      213: 1314213876128397333
+    second: bg-frame-lit-2_183
+  - first:
+      213: 4353521314485923328
+    second: bg-frame-lit-2_184
+  - first:
+      213: -1922656963427483459
+    second: bg-frame-lit-2_185
+  - first:
+      213: -6265549642583046399
+    second: bg-frame-lit-2_186
+  - first:
+      213: 7526704008136960825
+    second: bg-frame-lit-2_187
+  - first:
+      213: 7066449983202913524
+    second: bg-frame-lit-2_188
+  - first:
+      213: 4732063579235404581
+    second: bg-frame-lit-2_189
+  - first:
+      213: 1757826384863398837
+    second: bg-frame-lit-2_190
+  - first:
+      213: 2763574132258450337
+    second: bg-frame-lit-2_191
+  - first:
+      213: -2614977794015233018
+    second: bg-frame-lit-2_192
+  - first:
+      213: 2517620258893221363
+    second: bg-frame-lit-2_193
+  - first:
+      213: 7703077585971456072
+    second: bg-frame-lit-2_194
+  - first:
+      213: 2493523982782662650
+    second: bg-frame-lit-2_195
+  - first:
+      213: -2727000367217799686
+    second: bg-frame-lit-2_196
+  - first:
+      213: 4612022373552291236
+    second: bg-frame-lit-2_197
+  - first:
+      213: -6296572082244680938
+    second: bg-frame-lit-2_198
+  - first:
+      213: -2596223090994065161
+    second: bg-frame-lit-2_199
+  - first:
+      213: 3434267901814643792
+    second: bg-frame-lit-2_200
+  - first:
+      213: -5470053347136056472
+    second: bg-frame-lit-2_201
+  - first:
+      213: 1431377234463114831
+    second: bg-frame-lit-2_202
+  - first:
+      213: -7923994361193409178
+    second: bg-frame-lit-2_203
+  - first:
+      213: 7876922674299673221
+    second: bg-frame-lit-2_204
+  - first:
+      213: 6901482923794362222
+    second: bg-frame-lit-2_205
+  - first:
+      213: -7346242107088303088
+    second: bg-frame-lit-2_206
+  - first:
+      213: 2833404723166450820
+    second: bg-frame-lit-2_207
+  - first:
+      213: -5954493278566438778
+    second: bg-frame-lit-2_208
+  - first:
+      213: 3124860844478728191
+    second: bg-frame-lit-2_209
+  - first:
+      213: -6810462784430873407
+    second: bg-frame-lit-2_210
+  - first:
+      213: -2618814369733633024
+    second: bg-frame-lit-2_211
+  - first:
+      213: -5146837424331565916
+    second: bg-frame-lit-2_212
+  - first:
+      213: -2929802336344167535
+    second: bg-frame-lit-2_213
+  - first:
+      213: -1479132996603563596
+    second: bg-frame-lit-2_214
+  - first:
+      213: 8092087317118057619
+    second: bg-frame-lit-2_215
+  - first:
+      213: 6100051418616038534
+    second: bg-frame-lit-2_216
+  - first:
+      213: -8944620190484022222
+    second: bg-frame-lit-2_217
+  - first:
+      213: 5706287240022105353
+    second: bg-frame-lit-2_218
+  - first:
+      213: 2172891207004253364
+    second: bg-frame-lit-2_219
+  - first:
+      213: 2316671372940292564
+    second: bg-frame-lit-2_220
+  - first:
+      213: -5414319828990278422
+    second: bg-frame-lit-2_221
+  - first:
+      213: -6379677833973225888
+    second: bg-frame-lit-2_222
+  - first:
+      213: 8957245659834560505
+    second: bg-frame-lit-2_223
+  - first:
+      213: -1336448568807687446
+    second: bg-frame-lit-2_224
+  - first:
+      213: 5815241917434137037
+    second: bg-frame-lit-2_225
+  - first:
+      213: 7287142979040411808
+    second: bg-frame-lit-2_226
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bg-frame-lit-2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14006
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7211a543714f1c0c0800000000000000
+      internalID: -4557092967422488281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 14024
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e3501cfe9c0c650800000000000000
+      internalID: 6251218314362961482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13969
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9c419363885f390800000000000000
+      internalID: -7785166614372759068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 13982
+        width: 76
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b36b9d8da513c9b0800000000000000
+      internalID: -5061177721085008975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 14007
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76270b79f2b840240800000000000000
+      internalID: 4757080142934733415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_5
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 14000
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4f4c7759090a2f0800000000000000
+      internalID: -963611348623362873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 13982
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6edb4d603ee966430800000000000000
+      internalID: 3775880035506109926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11587
+        width: 1920
+        height: 2394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80e7845ce63ef560800000000000000
+      internalID: 7349372030573600910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_8
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 11172
+        width: 1516
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e6411c4716783f0800000000000000
+      internalID: -898642446553682378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_9
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 11398
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91195740afb28b0d0800000000000000
+      internalID: -3406924765289148135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_10
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 11241
+        width: 170
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69221d8898252ff0800000000000000
+      internalID: -61598384232715921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_11
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 11340
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed046533a920ea90800000000000000
+      internalID: -7286778416133304853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_12
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 11283
+        width: 29
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe70a49e1566c9e30800000000000000
+      internalID: 4511593428710721519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_13
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 11309
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0357cc10b53d28400800000000000000
+      internalID: 325054510949758256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_14
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 11317
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3195201ef0b7f750800000000000000
+      internalID: 6338729605786341695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_15
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 11310
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08988c79308bf9840800000000000000
+      internalID: 5233103617598720384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_16
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 11231
+        width: 53
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee05a70a1078ecf0800000000000000
+      internalID: -222804924455121179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_17
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 11308
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 756f7b0e8e261fe90800000000000000
+      internalID: -6993699993987582377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_18
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 11292
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d58ee638ac11230800000000000000
+      internalID: 3607887442350726549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_19
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 11117
+        width: 82
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147b938382cbca100800000000000000
+      internalID: 120678170960181057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_20
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 11294
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f636379ab18879b10800000000000000
+      internalID: 1988207412895769455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_21
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 11289
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4df80f131c3d5b0800000000000000
+      internalID: -5344715912525130534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_22
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 11236
+        width: 27
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc17ed2760c0c71f0800000000000000
+      internalID: -1045947791620279860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_23
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 11273
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb70338464b82570800000000000000
+      internalID: 8442195845296716770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_24
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 11282
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94b49fda251489b0800000000000000
+      internalID: -5078911205883202401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_25
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 11274
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e816604737d3ffe0800000000000000
+      internalID: -1156344047000479520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_26
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 11268
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9d3cd344bcf8e50800000000000000
+      internalID: 6813888255189309903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_27
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 11240
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11caa0eb8a48c150800000000000000
+      internalID: 5893042077044490527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_28
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 11266
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5001b3132ada9540800000000000000
+      internalID: 5015560979219546207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_29
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 11265
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58afd77668f4cb7c0800000000000000
+      internalID: -4054278125859767675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_30
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 11264
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5cdd34ce319e5e70800000000000000
+      internalID: 9105875195356109918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_31
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 11269
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de37ae90843434b30800000000000000
+      internalID: 4270330848360428525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_32
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 11256
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179258677acce1210800000000000000
+      internalID: 1305705961604065649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_33
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 11251
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b053ce463535e07f0800000000000000
+      internalID: -644486079026809589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_34
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 11249
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7d92a8c4ae90800800000000000000
+      internalID: 579251641550231479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_35
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 11173
+        width: 22
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58641444f3a23d20800000000000000
+      internalID: 3256845750051825757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_36
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 11196
+        width: 11
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14488029d260c0180800000000000000
+      internalID: -9147929950302993343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_37
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 11231
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8073e77c6cfcd580800000000000000
+      internalID: -8800882028990730100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_38
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 11231
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbacdc08a24737c0800000000000000
+      internalID: -4091728446905078817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_39
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 11234
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1832b79098aec320800000000000000
+      internalID: 2580184975503669279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_40
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 11222
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a77bcffbb756e3e0800000000000000
+      internalID: -2024834517494433882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_41
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 11128
+        width: 72
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc3599e82b1b6700800000000000000
+      internalID: 534550843305049288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_42
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 11215
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5725681e6929b50800000000000000
+      internalID: 6598502299416557035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_43
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 11158
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759e203b057e3d6c0800000000000000
+      internalID: -4119694900327159465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_44
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 11196
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfa3abea7ec42340800000000000000
+      internalID: 4838218927037460404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_45
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 11180
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9d78b4835e6b4b0800000000000000
+      internalID: -5424896671173060104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_46
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 11132
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114b1c3c9d73826d0800000000000000
+      internalID: -3015098542092864495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_47
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 11177
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1480dee6de0c9cfb0800000000000000
+      internalID: -4626955016145663935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_48
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 11159
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32083c319a94b5d70800000000000000
+      internalID: 9032894468151541795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_49
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 11169
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5fbed3b9bc7c0510800000000000000
+      internalID: 1516724311545528156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_50
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 11175
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd2d901a498bbc90800000000000000
+      internalID: -7152972631948579376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_51
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 11161
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e37f2ee8f7d49c20800000000000000
+      internalID: 3212429898369954790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_52
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 11171
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859ef369e83a50210800000000000000
+      internalID: 1298623900367710552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_53
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 11140
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f02ca4aa26b5130800000000000000
+      internalID: 3556544814277332873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_54
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 11157
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4a35b3f4f4b4670800000000000000
+      internalID: 8523993921445143768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_55
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 11159
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be5b19e90f6bada0800000000000000
+      internalID: -5932525995774222668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_56
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 11159
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c062493ed3067750800000000000000
+      internalID: 6302228981529862344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_57
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 11163
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea12121c486f8530800000000000000
+      internalID: 3859418081609784040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_58
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 9274
+        width: 1150
+        height: 1881
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77460ae409d05fe30800000000000000
+      internalID: 4536547113091228791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_59
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 11071
+        width: 63
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba670e601c4d8d0d0800000000000000
+      internalID: -3397731993341888853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_60
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 11143
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d19cf50f33fed60800000000000000
+      internalID: 7921607377060175249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_61
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 11148
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b28221c599e2eb0800000000000000
+      internalID: -4742684736853890146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_62
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 11124
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff35142d311c9b070800000000000000
+      internalID: 8122735693815436287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_63
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 9481
+        width: 792
+        height: 1624
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947eb4ed48365ed30800000000000000
+      internalID: 4460080428296693577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_64
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 11036
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9e6419d70da4c10800000000000000
+      internalID: 2038671019065403866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_65
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 10989
+        width: 51
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9ad90cf89203b60800000000000000
+      internalID: 7723719058329020899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_66
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 10986
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5405e3b075ae460800000000000000
+      internalID: 7271720254144792053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_67
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 10829
+        width: 83
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19371588d2720cc20800000000000000
+      internalID: 3224620409711326097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_68
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 10857
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f6dc6806b0a3230800000000000000
+      internalID: 3619217759751991103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_69
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 10875
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8e458e75206cf80800000000000000
+      internalID: -8086773504313857847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_70
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 10874
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1400f91b7a75e3fd0800000000000000
+      internalID: -2360352776944418751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_71
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 10874
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98623766bb3f98e0800000000000000
+      internalID: -1684562081011832673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_72
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 10833
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46355da083bcd1900800000000000000
+      internalID: 656904562226320228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_73
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 10835
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ce6c67f0bc55980800000000000000
+      internalID: -8550705050215322580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_74
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 10774
+        width: 50
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf0b65c2f79d4820800000000000000
+      internalID: 2904144403673845696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_75
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 10691
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc657bd66ba278d0800000000000000
+      internalID: -2850027155915182903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_76
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 10681
+        width: 34
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8190ab51d302740800000000000000
+      internalID: 5125163539472390346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_77
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 10508
+        width: 156
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c361f3520bf7f4c20800000000000000
+      internalID: 3192911055344834108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 10662
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48cfebf8bcc3c710800000000000000
+      internalID: 1712437378203764811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_79
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 10596
+        width: 46
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50af6a978609298f0800000000000000
+      internalID: -535206627311683067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_80
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 10669
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6174734fe745b0e0800000000000000
+      internalID: -2254816945474604692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_81
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 10609
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf9a22c56ef1bfe0800000000000000
+      internalID: -1174878314764263504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_82
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 10600
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4c00a339df6c1e0800000000000000
+      internalID: -2177774561011907396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_83
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 10622
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3abf7ce03a339e0800000000000000
+      internalID: -1642790155180072026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_84
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 10633
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c638a4e7699126ef0800000000000000
+      internalID: -116502506203610260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_85
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 10624
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfae7334188bb1f30800000000000000
+      internalID: 4547431114078677755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_86
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 10584
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a56c0f5bb168fe0800000000000000
+      internalID: -1187230983522985431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_87
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 10606
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d0f3272b0e50600800000000000000
+      internalID: 433999996136656221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_88
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 10612
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5a3209b5edf4aa0800000000000000
+      internalID: -6174472079260015124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_89
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 10599
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6588c116dbd69c7e0800000000000000
+      internalID: -1744742720483850154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_90
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 10585
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a27d9700f141380800000000000000
+      internalID: -9001535668302173602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_91
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 10577
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf05537bb94d8b830800000000000000
+      internalID: 4087250427097469180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_92
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 10579
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48eed23d9ca70e900800000000000000
+      internalID: 711703748374556292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_93
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 10585
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ca89e4b69353a20800000000000000
+      internalID: 3041400256401550441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_94
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 10232
+        width: 134
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182a0bb34919599a0800000000000000
+      internalID: -6226910843927223679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_95
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 10568
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc2b6cffa4d80190800000000000000
+      internalID: -7995907286077068082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_96
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 10563
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec7e83399b6c5850800000000000000
+      internalID: 6367082278934183146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_97
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 10441
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d6af9feb1978e20800000000000000
+      internalID: 3352808697024376125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_98
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 10460
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe10f2aac63bd380800000000000000
+      internalID: -8945495990896419083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10413
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2177f30461c15b90800000000000000
+      internalID: -7254804889409720021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10358
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1d834a0fa69c940800000000000000
+      internalID: 5316898416867463632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_101
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 10423
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4e28ff6481c44d0800000000000000
+      internalID: -3149115346225273648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_102
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 10372
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa00b8494831bca0800000000000000
+      internalID: -6002954940904895745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_103
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 10380
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9e4ddf2a496b630800000000000000
+      internalID: 3942501951573649837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_104
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 10370
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f59549b6f5302b0800000000000000
+      internalID: -5619542994373222548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_105
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 10192
+        width: 79
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23051b149d0aebfd0800000000000000
+      internalID: -2324243502706110414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_106
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 10333
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c349ae14ad1d6b720800000000000000
+      internalID: 2861705348579497020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_107
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 10299
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760ef34264eb86250800000000000000
+      internalID: 5938205317153153127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_108
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 10318
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d90f9cbec3cd850800000000000000
+      internalID: 6403059753616973066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_109
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 10308
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8038213459691550800000000000000
+      internalID: 6132048177964527756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_110
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 10321
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82208f7e0d755f90800000000000000
+      internalID: -6965523747436486001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_111
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 10263
+        width: 25
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4db96d8f3a7fea00800000000000000
+      internalID: 787982873187171663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_112
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 10304
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d52c53d6cb36a7d0800000000000000
+      internalID: -2907570784285481517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_113
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 10268
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce76be852e2cbdf10800000000000000
+      internalID: 2295642712485619692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_114
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 10283
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eafa01e893dc6170800000000000000
+      internalID: 8173140077334690528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_115
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 10290
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32009306de6bfd540800000000000000
+      internalID: 5034944039061356579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_116
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 10254
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ecbb43d34953b5a0800000000000000
+      internalID: -6506758888777597728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_117
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 10257
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7252c123b9f24120800000000000000
+      internalID: 2396752499475370620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_118
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 10260
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21951f9ff542b83e0800000000000000
+      internalID: -2050505210703292142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_119
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 10261
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec855817d7bc4dd0800000000000000
+      internalID: -2500421558643356441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_120
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 10257
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f05d035481ba5a20800000000000000
+      internalID: 3051946879384113400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9737
+        width: 462
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e326ef21e00ad8710800000000000000
+      internalID: 1697188616897192510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_122
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 9726
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47c2e10d8c41d770800000000000000
+      internalID: 8633766129151690572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_123
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 9730
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32cd627aed2e006f0800000000000000
+      internalID: -720326494464320477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_124
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 9724
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63665d14ef8af3800800000000000000
+      internalID: 594379485815858742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_125
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 9718
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442cf5faca77f46c0800000000000000
+      internalID: -4156972347479309756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_126
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 9717
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16d073e9bfa8d900800000000000000
+      internalID: 709510154230486556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_127
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 9700
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7216e63d8b20e40c0800000000000000
+      internalID: -4589727977399492313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_128
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 9721
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be015b346ff9dc10800000000000000
+      internalID: 2078973508965174967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_129
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 9676
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83cb35a8c14c1df0800000000000000
+      internalID: -208219152744463474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_130
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 9706
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0b13dcf1506dc00800000000000000
+      internalID: 924932407615926453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_131
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 9689
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71acd34e19b81f4c0800000000000000
+      internalID: -4255466714172634601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_132
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 9692
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52413fa4320774000800000000000000
+      internalID: 20108020230067237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_133
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 9671
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5f4e6bbe12802e0800000000000000
+      internalID: -2159438725054663177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_134
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 9665
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0bcce4a26a6f7b10800000000000000
+      internalID: 1981419332972628749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_135
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 9666
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71ab8a006ff8a3d0800000000000000
+      internalID: -3195023147660500611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_136
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 9654
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542f6b3a9b8e82d40800000000000000
+      internalID: 5559949624002146885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_137
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 9656
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eacf74f593d30000800000000000000
+      internalID: 1077065935735526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_138
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 9402
+        width: 188
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41656337769fbb50800000000000000
+      internalID: 6611168216710734154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_139
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 9613
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1fa7388138e3f40800000000000000
+      internalID: 5710145518860693927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_140
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 9618
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c73ae42329f2080800000000000000
+      internalID: -9209981968184017771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_141
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 9628
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd53c7da550b1e510800000000000000
+      internalID: 1576735226585691613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_142
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 9610
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c6fcf4d68c4d540800000000000000
+      internalID: 5031867055495670872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_143
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 9614
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6279f84145465aab0800000000000000
+      internalID: -4997477899212712154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_144
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 9558
+        width: 88
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29644d82ac1bb700800000000000000
+      internalID: 557070463390738734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_145
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 9514
+        width: 131
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a223180ca3f245e0800000000000000
+      internalID: -1926709770365754713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_146
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 9570
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119898209f92f77e0800000000000000
+      internalID: -1765646379439781615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_147
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 9545
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2829e5da4350cf0800000000000000
+      internalID: -286765082047511850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_148
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 9544
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07179907aff62c530800000000000000
+      internalID: 3873781750913659248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_149
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 9492
+        width: 141
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ca1d82687b55320800000000000000
+      internalID: 2546142951186213930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_150
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 9442
+        width: 184
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a9d0c56754f3ca0800000000000000
+      internalID: -6035028601000322432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_151
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 9522
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed5b2b94b0ea5ef0800000000000000
+      internalID: -118535373869851164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_152
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 9536
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc11189224328fbb0800000000000000
+      internalID: -4902129427321646645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_153
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 9531
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf960d256aecb1b0800000000000000
+      internalID: -5639374913106698298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_154
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 9524
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae79efb4a29363e0800000000000000
+      internalID: -2061642968113512785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_155
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 9534
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0307072bbb75ef3d0800000000000000
+      internalID: -3171000623958036432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_156
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 9487
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03fc0ce5a89c2c7a0800000000000000
+      internalID: -6358298127761354960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_157
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 9527
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1a2d8b146096da0800000000000000
+      internalID: -5951218553249947147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_158
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 9520
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e5f008ee562f370800000000000000
+      internalID: 8354852333750804028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_159
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 9500
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb40976ba41d064f0800000000000000
+      internalID: -837439411871742788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_160
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 9497
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db88bc6bf3add9710800000000000000
+      internalID: 1701756201400502461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_161
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 9486
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c45913c36d6a8c0800000000000000
+      internalID: -3988264865971745779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_162
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 9490
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88cdcaf9374ec76c0800000000000000
+      internalID: -4144186371836420984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_163
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 9478
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9e866d5d4a5c880800000000000000
+      internalID: -8591279475807163996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_164
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 9492
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86a86eb474e8a590800000000000000
+      internalID: -7662623575909030261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_165
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 9490
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20c60220351d0d60800000000000000
+      internalID: 7857960221304864815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_166
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 9474
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c13572ef76471130800000000000000
+      internalID: 3537373547396936134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_167
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 9477
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e012988b2a9be9940800000000000000
+      internalID: 5304881519620858126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_168
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 9477
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8813b25db88016b0800000000000000
+      internalID: -5327608012461631348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_169
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 9474
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095e2205c91724d30800000000000000
+      internalID: 4414215500949808528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_170
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 9448
+        width: 79
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176e2653ae7e07c20800000000000000
+      internalID: 3202314328164460145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_171
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 9461
+        width: 47
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b34761b5190aeb0800000000000000
+      internalID: -4710605389824771218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_172
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 9468
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3551a675bf40430800000000000000
+      internalID: 3748397142739604468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_173
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 9465
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2da6b27c74033910800000000000000
+      internalID: 1815800007307472170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_174
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 9461
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38c04f1d6ff999e0800000000000000
+      internalID: -1613978147294754758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_175
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 9464
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3417f2c689ea83520800000000000000
+      internalID: 2682085547772440899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_176
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 9454
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6520609718d8a45f0800000000000000
+      internalID: -771648798919884202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_177
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 9461
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7d3e778ca96bfa0800000000000000
+      internalID: -5785266485515266098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_178
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 9440
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b51246a2cfcf8ad0800000000000000
+      internalID: -2697709216851683912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_179
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 9448
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94579a24e23c4d800800000000000000
+      internalID: 636348050820396361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_180
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 9451
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52593131289623b30800000000000000
+      internalID: 4265587804459996453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_181
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 9459
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ec7249138bdee20800000000000000
+      internalID: 3381561418303655550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_182
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 9419
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db7c83b7f8b35be0800000000000000
+      internalID: -1489643677720740903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_183
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 9384
+        width: 177
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518b58dae860d3210800000000000000
+      internalID: 1314213876128397333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_184
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 9376
+        width: 125
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e6600d190da6c30800000000000000
+      internalID: 4353521314485923328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_185
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 9448
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db049fdada95155e0800000000000000
+      internalID: -1922656963427483459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_186
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 9451
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107034fdbcb4c09a0800000000000000
+      internalID: -6265549642583046399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_187
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 9440
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b238eca69347860800000000000000
+      internalID: 7526704008136960825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_188
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 9439
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fcefdfe1d2111260800000000000000
+      internalID: 7066449983202913524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_189
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 9415
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52bc3e6f0caaba140800000000000000
+      internalID: 4732063579235404581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_190
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 9434
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb879e98cd056810800000000000000
+      internalID: 1757826384863398837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_191
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 9438
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab29bff7003a5620800000000000000
+      internalID: 2763574132258450337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_192
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 9428
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cff241d8bb5bbd0800000000000000
+      internalID: -2614977794015233018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_193
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 9432
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd48aa594260f220800000000000000
+      internalID: 2517620258893221363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_194
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 9433
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8482a157044d6ea60800000000000000
+      internalID: 7703077585971456072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_195
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 9433
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af78da0e9d6ca9220800000000000000
+      internalID: 2493523982782662650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_196
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 9426
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd8f914d9fb72ad0800000000000000
+      internalID: -2727000367217799686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_197
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 9431
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adfcb7c9e1310040800000000000000
+      internalID: 4612022373552291236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_198
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 9425
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6130a274d051e98a0800000000000000
+      internalID: -6296572082244680938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_199
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 9430
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0d1a7aadc58fbd0800000000000000
+      internalID: -2596223090994065161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_200
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 9425
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c103f0678f8af20800000000000000
+      internalID: 3434267901814643792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_201
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 9426
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863d48d56777614b0800000000000000
+      internalID: -5470053347136056472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_202
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 9419
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4641cfc2064dd310800000000000000
+      internalID: 1431377234463114831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_203
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 9421
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6655ed29c11580290800000000000000
+      internalID: -7923994361193409178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_204
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 9404
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a1ad44073705d60800000000000000
+      internalID: 7876922674299673221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_205
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 9419
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fef20572ef6cf50800000000000000
+      internalID: 6901482923794362222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_206
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 9417
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c0cf4c9b7ec0a90800000000000000
+      internalID: -7346242107088303088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_207
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 9406
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484104d6596425720800000000000000
+      internalID: 2833404723166450820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_208
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 9407
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688a89159e36d5da0800000000000000
+      internalID: -5954493278566438778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_209
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 9400
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff78eafb16cbd5b20800000000000000
+      internalID: 3124860844478728191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_210
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 9400
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4eaf15e206c71a0800000000000000
+      internalID: -6810462784430873407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_211
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 9403
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c965fa43a18abd0800000000000000
+      internalID: -2618814369733633024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_212
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 9405
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4d706b1a2c298b0800000000000000
+      internalID: -5146837424331565916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_213
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 9408
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ba8104c404757d0800000000000000
+      internalID: -2929802336344167535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_214
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 9408
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1b2e95060197be0800000000000000
+      internalID: -1479132996603563596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_215
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 9397
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39cf34c8a8edc4070800000000000000
+      internalID: 8092087317118057619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_216
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 9408
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6840a3e127cb7a450800000000000000
+      internalID: 6100051418616038534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_217
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 9409
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23cb96fc3535ed380800000000000000
+      internalID: -8944620190484022222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_218
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 9385
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d9cd7f20ec03f40800000000000000
+      internalID: 5706287240022105353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_219
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 9362
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bcee015a09a72e10800000000000000
+      internalID: 2172891207004253364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_220
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 9381
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d13c65e658762020800000000000000
+      internalID: 2316671372940292564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_221
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 9364
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae44ea44dc87cd4b0800000000000000
+      internalID: -5414319828990278422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_222
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 9366
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066a79c9fc4d677a0800000000000000
+      internalID: -6379677833973225888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_223
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 9368
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff295858778e4c70800000000000000
+      internalID: 8957245659834560505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_224
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 9351
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea73a38b1bf37de0800000000000000
+      internalID: -1336448568807687446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_225
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2494
+        width: 1920
+        height: 1021
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc98f93a6b3e3b050800000000000000
+      internalID: 5815241917434137037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg-frame-lit-2_226
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 2498
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a08f253ee1212560800000000000000
+      internalID: 7287142979040411808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bg-frame-lit-2_0: -4557092967422488281
+      bg-frame-lit-2_1: 6251218314362961482
+      bg-frame-lit-2_10: -61598384232715921
+      bg-frame-lit-2_100: 5316898416867463632
+      bg-frame-lit-2_101: -3149115346225273648
+      bg-frame-lit-2_102: -6002954940904895745
+      bg-frame-lit-2_103: 3942501951573649837
+      bg-frame-lit-2_104: -5619542994373222548
+      bg-frame-lit-2_105: -2324243502706110414
+      bg-frame-lit-2_106: 2861705348579497020
+      bg-frame-lit-2_107: 5938205317153153127
+      bg-frame-lit-2_108: 6403059753616973066
+      bg-frame-lit-2_109: 6132048177964527756
+      bg-frame-lit-2_11: -7286778416133304853
+      bg-frame-lit-2_110: -6965523747436486001
+      bg-frame-lit-2_111: 787982873187171663
+      bg-frame-lit-2_112: -2907570784285481517
+      bg-frame-lit-2_113: 2295642712485619692
+      bg-frame-lit-2_114: 8173140077334690528
+      bg-frame-lit-2_115: 5034944039061356579
+      bg-frame-lit-2_116: -6506758888777597728
+      bg-frame-lit-2_117: 2396752499475370620
+      bg-frame-lit-2_118: -2050505210703292142
+      bg-frame-lit-2_119: -2500421558643356441
+      bg-frame-lit-2_12: 4511593428710721519
+      bg-frame-lit-2_120: 3051946879384113400
+      bg-frame-lit-2_121: 1697188616897192510
+      bg-frame-lit-2_122: 8633766129151690572
+      bg-frame-lit-2_123: -720326494464320477
+      bg-frame-lit-2_124: 594379485815858742
+      bg-frame-lit-2_125: -4156972347479309756
+      bg-frame-lit-2_126: 709510154230486556
+      bg-frame-lit-2_127: -4589727977399492313
+      bg-frame-lit-2_128: 2078973508965174967
+      bg-frame-lit-2_129: -208219152744463474
+      bg-frame-lit-2_13: 325054510949758256
+      bg-frame-lit-2_130: 924932407615926453
+      bg-frame-lit-2_131: -4255466714172634601
+      bg-frame-lit-2_132: 20108020230067237
+      bg-frame-lit-2_133: -2159438725054663177
+      bg-frame-lit-2_134: 1981419332972628749
+      bg-frame-lit-2_135: -3195023147660500611
+      bg-frame-lit-2_136: 5559949624002146885
+      bg-frame-lit-2_137: 1077065935735526
+      bg-frame-lit-2_138: 6611168216710734154
+      bg-frame-lit-2_139: 5710145518860693927
+      bg-frame-lit-2_14: 6338729605786341695
+      bg-frame-lit-2_140: -9209981968184017771
+      bg-frame-lit-2_141: 1576735226585691613
+      bg-frame-lit-2_142: 5031867055495670872
+      bg-frame-lit-2_143: -4997477899212712154
+      bg-frame-lit-2_144: 557070463390738734
+      bg-frame-lit-2_145: -1926709770365754713
+      bg-frame-lit-2_146: -1765646379439781615
+      bg-frame-lit-2_147: -286765082047511850
+      bg-frame-lit-2_148: 3873781750913659248
+      bg-frame-lit-2_149: 2546142951186213930
+      bg-frame-lit-2_15: 5233103617598720384
+      bg-frame-lit-2_150: -6035028601000322432
+      bg-frame-lit-2_151: -118535373869851164
+      bg-frame-lit-2_152: -4902129427321646645
+      bg-frame-lit-2_153: -5639374913106698298
+      bg-frame-lit-2_154: -2061642968113512785
+      bg-frame-lit-2_155: -3171000623958036432
+      bg-frame-lit-2_156: -6358298127761354960
+      bg-frame-lit-2_157: -5951218553249947147
+      bg-frame-lit-2_158: 8354852333750804028
+      bg-frame-lit-2_159: -837439411871742788
+      bg-frame-lit-2_16: -222804924455121179
+      bg-frame-lit-2_160: 1701756201400502461
+      bg-frame-lit-2_161: -3988264865971745779
+      bg-frame-lit-2_162: -4144186371836420984
+      bg-frame-lit-2_163: -8591279475807163996
+      bg-frame-lit-2_164: -7662623575909030261
+      bg-frame-lit-2_165: 7857960221304864815
+      bg-frame-lit-2_166: 3537373547396936134
+      bg-frame-lit-2_167: 5304881519620858126
+      bg-frame-lit-2_168: -5327608012461631348
+      bg-frame-lit-2_169: 4414215500949808528
+      bg-frame-lit-2_17: -6993699993987582377
+      bg-frame-lit-2_170: 3202314328164460145
+      bg-frame-lit-2_171: -4710605389824771218
+      bg-frame-lit-2_172: 3748397142739604468
+      bg-frame-lit-2_173: 1815800007307472170
+      bg-frame-lit-2_174: -1613978147294754758
+      bg-frame-lit-2_175: 2682085547772440899
+      bg-frame-lit-2_176: -771648798919884202
+      bg-frame-lit-2_177: -5785266485515266098
+      bg-frame-lit-2_178: -2697709216851683912
+      bg-frame-lit-2_179: 636348050820396361
+      bg-frame-lit-2_18: 3607887442350726549
+      bg-frame-lit-2_180: 4265587804459996453
+      bg-frame-lit-2_181: 3381561418303655550
+      bg-frame-lit-2_182: -1489643677720740903
+      bg-frame-lit-2_183: 1314213876128397333
+      bg-frame-lit-2_184: 4353521314485923328
+      bg-frame-lit-2_185: -1922656963427483459
+      bg-frame-lit-2_186: -6265549642583046399
+      bg-frame-lit-2_187: 7526704008136960825
+      bg-frame-lit-2_188: 7066449983202913524
+      bg-frame-lit-2_189: 4732063579235404581
+      bg-frame-lit-2_19: 120678170960181057
+      bg-frame-lit-2_190: 1757826384863398837
+      bg-frame-lit-2_191: 2763574132258450337
+      bg-frame-lit-2_192: -2614977794015233018
+      bg-frame-lit-2_193: 2517620258893221363
+      bg-frame-lit-2_194: 7703077585971456072
+      bg-frame-lit-2_195: 2493523982782662650
+      bg-frame-lit-2_196: -2727000367217799686
+      bg-frame-lit-2_197: 4612022373552291236
+      bg-frame-lit-2_198: -6296572082244680938
+      bg-frame-lit-2_199: -2596223090994065161
+      bg-frame-lit-2_2: -7785166614372759068
+      bg-frame-lit-2_20: 1988207412895769455
+      bg-frame-lit-2_200: 3434267901814643792
+      bg-frame-lit-2_201: -5470053347136056472
+      bg-frame-lit-2_202: 1431377234463114831
+      bg-frame-lit-2_203: -7923994361193409178
+      bg-frame-lit-2_204: 7876922674299673221
+      bg-frame-lit-2_205: 6901482923794362222
+      bg-frame-lit-2_206: -7346242107088303088
+      bg-frame-lit-2_207: 2833404723166450820
+      bg-frame-lit-2_208: -5954493278566438778
+      bg-frame-lit-2_209: 3124860844478728191
+      bg-frame-lit-2_21: -5344715912525130534
+      bg-frame-lit-2_210: -6810462784430873407
+      bg-frame-lit-2_211: -2618814369733633024
+      bg-frame-lit-2_212: -5146837424331565916
+      bg-frame-lit-2_213: -2929802336344167535
+      bg-frame-lit-2_214: -1479132996603563596
+      bg-frame-lit-2_215: 8092087317118057619
+      bg-frame-lit-2_216: 6100051418616038534
+      bg-frame-lit-2_217: -8944620190484022222
+      bg-frame-lit-2_218: 5706287240022105353
+      bg-frame-lit-2_219: 2172891207004253364
+      bg-frame-lit-2_22: -1045947791620279860
+      bg-frame-lit-2_220: 2316671372940292564
+      bg-frame-lit-2_221: -5414319828990278422
+      bg-frame-lit-2_222: -6379677833973225888
+      bg-frame-lit-2_223: 8957245659834560505
+      bg-frame-lit-2_224: -1336448568807687446
+      bg-frame-lit-2_225: 5815241917434137037
+      bg-frame-lit-2_226: 7287142979040411808
+      bg-frame-lit-2_23: 8442195845296716770
+      bg-frame-lit-2_24: -5078911205883202401
+      bg-frame-lit-2_25: -1156344047000479520
+      bg-frame-lit-2_26: 6813888255189309903
+      bg-frame-lit-2_27: 5893042077044490527
+      bg-frame-lit-2_28: 5015560979219546207
+      bg-frame-lit-2_29: -4054278125859767675
+      bg-frame-lit-2_3: -5061177721085008975
+      bg-frame-lit-2_30: 9105875195356109918
+      bg-frame-lit-2_31: 4270330848360428525
+      bg-frame-lit-2_32: 1305705961604065649
+      bg-frame-lit-2_33: -644486079026809589
+      bg-frame-lit-2_34: 579251641550231479
+      bg-frame-lit-2_35: 3256845750051825757
+      bg-frame-lit-2_36: -9147929950302993343
+      bg-frame-lit-2_37: -8800882028990730100
+      bg-frame-lit-2_38: -4091728446905078817
+      bg-frame-lit-2_39: 2580184975503669279
+      bg-frame-lit-2_4: 4757080142934733415
+      bg-frame-lit-2_40: -2024834517494433882
+      bg-frame-lit-2_41: 534550843305049288
+      bg-frame-lit-2_42: 6598502299416557035
+      bg-frame-lit-2_43: -4119694900327159465
+      bg-frame-lit-2_44: 4838218927037460404
+      bg-frame-lit-2_45: -5424896671173060104
+      bg-frame-lit-2_46: -3015098542092864495
+      bg-frame-lit-2_47: -4626955016145663935
+      bg-frame-lit-2_48: 9032894468151541795
+      bg-frame-lit-2_49: 1516724311545528156
+      bg-frame-lit-2_5: -963611348623362873
+      bg-frame-lit-2_50: -7152972631948579376
+      bg-frame-lit-2_51: 3212429898369954790
+      bg-frame-lit-2_52: 1298623900367710552
+      bg-frame-lit-2_53: 3556544814277332873
+      bg-frame-lit-2_54: 8523993921445143768
+      bg-frame-lit-2_55: -5932525995774222668
+      bg-frame-lit-2_56: 6302228981529862344
+      bg-frame-lit-2_57: 3859418081609784040
+      bg-frame-lit-2_58: 4536547113091228791
+      bg-frame-lit-2_59: -3397731993341888853
+      bg-frame-lit-2_6: 3775880035506109926
+      bg-frame-lit-2_60: 7921607377060175249
+      bg-frame-lit-2_61: -4742684736853890146
+      bg-frame-lit-2_62: 8122735693815436287
+      bg-frame-lit-2_63: 4460080428296693577
+      bg-frame-lit-2_64: 2038671019065403866
+      bg-frame-lit-2_65: 7723719058329020899
+      bg-frame-lit-2_66: 7271720254144792053
+      bg-frame-lit-2_67: 3224620409711326097
+      bg-frame-lit-2_68: 3619217759751991103
+      bg-frame-lit-2_69: -8086773504313857847
+      bg-frame-lit-2_7: 7349372030573600910
+      bg-frame-lit-2_70: -2360352776944418751
+      bg-frame-lit-2_71: -1684562081011832673
+      bg-frame-lit-2_72: 656904562226320228
+      bg-frame-lit-2_73: -8550705050215322580
+      bg-frame-lit-2_74: 2904144403673845696
+      bg-frame-lit-2_75: -2850027155915182903
+      bg-frame-lit-2_76: 5125163539472390346
+      bg-frame-lit-2_77: 3192911055344834108
+      bg-frame-lit-2_78: 1712437378203764811
+      bg-frame-lit-2_79: -535206627311683067
+      bg-frame-lit-2_8: -898642446553682378
+      bg-frame-lit-2_80: -2254816945474604692
+      bg-frame-lit-2_81: -1174878314764263504
+      bg-frame-lit-2_82: -2177774561011907396
+      bg-frame-lit-2_83: -1642790155180072026
+      bg-frame-lit-2_84: -116502506203610260
+      bg-frame-lit-2_85: 4547431114078677755
+      bg-frame-lit-2_86: -1187230983522985431
+      bg-frame-lit-2_87: 433999996136656221
+      bg-frame-lit-2_88: -6174472079260015124
+      bg-frame-lit-2_89: -1744742720483850154
+      bg-frame-lit-2_9: -3406924765289148135
+      bg-frame-lit-2_90: -9001535668302173602
+      bg-frame-lit-2_91: 4087250427097469180
+      bg-frame-lit-2_92: 711703748374556292
+      bg-frame-lit-2_93: 3041400256401550441
+      bg-frame-lit-2_94: -6226910843927223679
+      bg-frame-lit-2_95: -7995907286077068082
+      bg-frame-lit-2_96: 6367082278934183146
+      bg-frame-lit-2_97: 3352808697024376125
+      bg-frame-lit-2_98: -8945495990896419083
+      bg-frame-lit-2_99: -7254804889409720021
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
